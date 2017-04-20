@@ -1,0 +1,252 @@
+    1:2: VAR 0x1933470 <e2865> {d35} @dt=0x191c3b0@(G/w1)  clock [PI] [CLK] [P] INPUT
+
+G/w1)  clock [PI] [CLK] [P] INPUT
+
+('INPUT', ' ', True)
+Adding inputs
+    1:2: VAR 0x19267b0 <e2870> {d36} @dt=0x191c3b0@(G/w1)  reset [PI] [P] INPUT
+
+G/w1)  reset [PI] [P] INPUT
+
+('INPUT', ' ', True)
+Adding inputs
+    1:2: VAR 0x191d750 <e2876> {d37} @dt=0x190b310@(G/w6)  x_in [PI] [P] INPUT
+
+G/w6)  x_in [PI] [P] INPUT
+
+('INPUT', ' ', True)
+Adding inputs
+    1:2: VAR 0x1919630 <e2882> {d38} @dt=0x191c3b0@(G/w1)  stbi [PI] [P] INPUT
+
+G/w1)  stbi [PI] [P] INPUT
+
+('INPUT', ' ', True)
+Adding inputs
+    1:2: VAR 0x1932620 <e2888> {d39} @dt=0x190b310@(G/w6)  x_out [PO] [P] OUTPUT
+
+G/w6)  x_out [PO] [P] OUTPUT
+
+('OUTPUT', ' ', False)
+    1:2: VAR 0x190c8f0 <e2193> {d53} @dt=0x190b310@(G/w6)  v__DOT__r_in [P] VAR
+
+G/w6)  v__DOT__r_in [P] VAR
+
+('VAR', ' ', False)
+    1:2: VAR 0x1923e30 <e1479> {d55} @dt=0x190dc30@(G/w4)  v__DOT__stato [P] VAR
+
+G/w4)  v__DOT__stato [P] VAR
+
+('VAR', ' ', False)
+    1:2: VAR 0x1920cc0 <e2194> {d57} @dt=0x190b310@(G/w6)  v__DOT__cont [P] VAR
+
+G/w6)  v__DOT__cont [P] VAR
+
+('VAR', ' ', False)
+    1:2: VAR 0x1922420 <e1495> {d58} @dt=0x190f7e0@(G/w9)  v__DOT__cont1 [P] VAR
+
+G/w9)  v__DOT__cont1 [P] VAR
+
+('VAR', ' ', False)
+reset_0 != 0
+('inside :', 32)
+('inside :', 35)
+((v__DOT__stato_0) & 4) != 0
+('inside :', 35)
+('inside :', 34)
+((v__DOT__stato_0) & 2) != 0
+('inside :', 34)
+('inside :', 33)
+((v__DOT__stato_0) & 1) != 0
+('inside :', 33)
+('inside :', 30)
+((v__DOT__cont1_0) & 256) != 0
+('inside :', 30)
+(~(((v__DOT__cont1_0) & 256))) != 0
+(~(((v__DOT__stato_0) & 1))) != 0
+(~(((v__DOT__stato_0) & 2))) != 0
+(~(((v__DOT__stato_0) & 4))) != 0
+((v__DOT__stato_0) & 8) != 0
+('inside :', 32)
+('inside :', 45)
+('inside :', 40)
+('inside :', 38)
+('inside :', 27)
+((((v__DOT__r_in_0) >> 2) & 3) == 0)
+('inside :', 27)
+('inside :', 37)
+((((v__DOT__r_in_0) >> 2) & 3) == 1)
+('inside :', 37)
+('inside :', 36)
+((((v__DOT__r_in_0) >> 2) & 3) == 2)
+('inside :', 36)
+((((v__DOT__r_in_0) >> 2) & 3) != 2)
+((((v__DOT__r_in_0) >> 2) & 3) != 1)
+((((v__DOT__r_in_0) >> 2) & 3) != 0)
+((v__DOT__stato_0) & 1) != 0
+('inside :', 38)
+('inside :', 22)
+( ((v__DOT__cont1_0) < 63) != 0 )
+('inside :', 22)
+((v__DOT__cont1_0) >= 63)
+(~(((v__DOT__stato_0) & 1))) != 0
+((v__DOT__stato_0) & 2) != 0
+('inside :', 40)
+('inside :', 39)
+('inside :', 19)
+( ((v__DOT__cont1_0) < 26) != 0 )
+('inside :', 19)
+((v__DOT__cont1_0) >= 26)
+((v__DOT__stato_0) & 1) != 0
+('inside :', 39)
+('inside :', 16)
+((v__DOT__r_in_0) & 2) != 0
+('inside :', 16)
+(~(((v__DOT__r_in_0) & 2))) != 0
+(~(((v__DOT__stato_0) & 1))) != 0
+(~(((v__DOT__stato_0) & 2))) != 0
+((v__DOT__stato_0) & 4) != 0
+('inside :', 45)
+('inside :', 44)
+('inside :', 42)
+('inside :', 13)
+((v__DOT__r_in_0) & 1) != 0
+('inside :', 13)
+(~(((v__DOT__r_in_0) & 1))) != 0
+((v__DOT__stato_0) & 1) != 0
+('inside :', 42)
+('inside :', 10)
+('inside :', 7)
+( ((v__DOT__cont_0) > 25) != 0 )
+('inside :', 7)
+((v__DOT__cont_0) <= 25)
+(((v__DOT__r_in_0) == 63) | ((v__DOT__r_in_0) == 0)) != 0
+('inside :', 10)
+('inside :', 41)
+((v__DOT__r_in_0) >= 26)
+('inside :', 41)
+( ((v__DOT__r_in_0) < 26) != 0 )
+(~((((v__DOT__r_in_0) == 63) | ((v__DOT__r_in_0) == 0)))) != 0
+(~(((v__DOT__stato_0) & 1))) != 0
+((v__DOT__stato_0) & 2) != 0
+('inside :', 44)
+('inside :', 43)
+('inside :', 4)
+stbi_0 != 0
+('inside :', 4)
+(~(stbi_0)) != 0
+((v__DOT__stato_0) & 1) != 0
+('inside :', 43)
+(~(((v__DOT__stato_0) & 1))) != 0
+(~(((v__DOT__stato_0) & 2))) != 0
+(~(((v__DOT__stato_0) & 4))) != 0
+(~(((v__DOT__stato_0) & 8))) != 0
+(~(reset_0)) != 0
+((~((__Vclklast__TOP__clock_0))) & (clock_0)) != 0
+(~(((~((__Vclklast__TOP__clock_0))) & (clock_0)))) != 0
+0
+
+32
+	35
+		31
+		34
+			31
+			33
+				31
+				30
+					28
+					29
+	45
+		40
+			38
+				27
+					23
+					37
+						24
+						36
+							25
+							26
+				22
+					20
+					21
+			39
+				19
+					17
+					18
+				16
+					14
+					15
+		44
+			42
+				13
+					11
+					12
+				10
+					7
+						5
+						6
+					41
+						8
+						9
+			43
+				4
+					2
+					3
+				1
+
+46
+
+47
+
+(0, ' ', [0])
+(1, ' ', [32, 45, 44, 43, 1])
+(2, ' ', [32, 45, 44, 43, 4, 2])
+(3, ' ', [32, 45, 44, 43, 4, 3])
+(5, ' ', [32, 45, 44, 42, 10, 7, 5])
+(6, ' ', [32, 45, 44, 42, 10, 7, 6])
+(8, ' ', [32, 45, 44, 42, 10, 41, 8])
+(9, ' ', [32, 45, 44, 42, 10, 41, 9])
+(11, ' ', [32, 45, 44, 42, 13, 11])
+(12, ' ', [32, 45, 44, 42, 13, 12])
+(14, ' ', [32, 45, 40, 39, 16, 14])
+(15, ' ', [32, 45, 40, 39, 16, 15])
+(17, ' ', [32, 45, 40, 39, 19, 17])
+(18, ' ', [32, 45, 40, 39, 19, 18])
+(20, ' ', [32, 45, 40, 38, 22, 20])
+(21, ' ', [32, 45, 40, 38, 22, 21])
+(23, ' ', [32, 45, 40, 38, 27, 23])
+(24, ' ', [32, 45, 40, 38, 27, 37, 24])
+(25, ' ', [32, 45, 40, 38, 27, 37, 36, 25])
+(26, ' ', [32, 45, 40, 38, 27, 37, 36, 26])
+(28, ' ', [32, 35, 34, 33, 30, 28])
+(29, ' ', [32, 35, 34, 33, 30, 29])
+(31, ' ', [32, 35, 34, 33, 31])
+
+Input Vars
+('clock', ' : ', 1)
+('reset', ' : ', 1)
+('x_in', ' : ', 6)
+('stbi', ' : ', 1)
+
+0   reset_0 != 0 ,  (v__DOT__stato_0 == 0) ,  (v__DOT__r_in_0 == 0) ,  (v__DOT__cont_0 == 0) ,  (v__DOT__cont1_0 == 0) ,  (x_out_0 == 0) ,   
+1   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  (~(((v__DOT__stato_0) & 4))) != 0 ,  (~(((v__DOT__stato_0) & 2))) != 0 ,  (~(((v__DOT__stato_0) & 1))) != 0 ,  (v__DOT__cont_0 == 0) ,  (v__DOT__r_in_0 == x_in_0) ,  (x_out_0 == 0) ,  (v__DOT__stato_0 == 1) ,   
+2   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  (~(((v__DOT__stato_0) & 4))) != 0 ,  (~(((v__DOT__stato_0) & 2))) != 0 ,  ((v__DOT__stato_0) & 1) != 0 ,  (v__DOT__r_in_0 == x_in_0) ,  stbi_0 != 0 ,  (v__DOT__stato_0 == 1) ,   
+3   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  (~(((v__DOT__stato_0) & 4))) != 0 ,  (~(((v__DOT__stato_0) & 2))) != 0 ,  ((v__DOT__stato_0) & 1) != 0 ,  (v__DOT__r_in_0 == x_in_0) ,  (~(stbi_0)) != 0 ,  (v__DOT__stato_0 == 2) ,   
+5   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  (~(((v__DOT__stato_0) & 4))) != 0 ,  ((v__DOT__stato_0) & 2) != 0 ,  (~(((v__DOT__stato_0) & 1))) != 0 ,  (((v__DOT__r_in_0) == 63) | ((v__DOT__r_in_0) == 0)) != 0 ,  (v__DOT__cont1_0 == v__DOT__r_in_0) ,  (v__DOT__stato_0 == 8) ,  ((v__DOT__cont_0) > 25) ,  (v__DOT__cont_0 == (((v__DOT__cont_0) + (1)) & 63)) ,   
+6   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  (~(((v__DOT__stato_0) & 4))) != 0 ,  ((v__DOT__stato_0) & 2) != 0 ,  (~(((v__DOT__stato_0) & 1))) != 0 ,  (((v__DOT__r_in_0) == 63) | ((v__DOT__r_in_0) == 0)) != 0 ,  (v__DOT__cont1_0 == v__DOT__r_in_0) ,  (v__DOT__stato_0 == 8) ,  ((v__DOT__cont_0) <= 25) ,  (v__DOT__cont_0 == 0) ,   
+8   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  (~(((v__DOT__stato_0) & 4))) != 0 ,  ((v__DOT__stato_0) & 2) != 0 ,  (~(((v__DOT__stato_0) & 1))) != 0 ,  (~((((v__DOT__r_in_0) == 63) | ((v__DOT__r_in_0) == 0)))) != 0 ,  ((v__DOT__r_in_0) >= 26) ,  (v__DOT__stato_0 == 3) ,   
+9   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  (~(((v__DOT__stato_0) & 4))) != 0 ,  ((v__DOT__stato_0) & 2) != 0 ,  (~(((v__DOT__stato_0) & 1))) != 0 ,  (~((((v__DOT__r_in_0) == 63) | ((v__DOT__r_in_0) == 0)))) != 0 ,  ((v__DOT__r_in_0) < 26) ,  (v__DOT__stato_0 == 1) ,   
+11   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  (~(((v__DOT__stato_0) & 4))) != 0 ,  ((v__DOT__stato_0) & 2) != 0 ,  ((v__DOT__stato_0) & 1) != 0 ,  (v__DOT__stato_0 == 4) ,  ((v__DOT__r_in_0) & 1) != 0 ,  (v__DOT__cont1_0 == (((v__DOT__cont_0) << 1) & 511)) ,   
+12   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  (~(((v__DOT__stato_0) & 4))) != 0 ,  ((v__DOT__stato_0) & 2) != 0 ,  ((v__DOT__stato_0) & 1) != 0 ,  (v__DOT__stato_0 == 4) ,  (~(((v__DOT__r_in_0) & 1))) != 0 ,  (v__DOT__cont1_0 == v__DOT__cont_0) ,   
+14   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  ((v__DOT__stato_0) & 4) != 0 ,  (~(((v__DOT__stato_0) & 2))) != 0 ,  (~(((v__DOT__stato_0) & 1))) != 0 ,  ((v__DOT__r_in_0) & 2) != 0 ,  (v__DOT__cont1_0 == (((v__DOT__cont1_0) + (v__DOT__r_in_0)) & 511)) ,  (v__DOT__stato_0 == 5) ,   
+15   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  ((v__DOT__stato_0) & 4) != 0 ,  (~(((v__DOT__stato_0) & 2))) != 0 ,  (~(((v__DOT__stato_0) & 1))) != 0 ,  (~(((v__DOT__r_in_0) & 2))) != 0 ,  (v__DOT__cont1_0 == (((v__DOT__r_in_0) - (v__DOT__cont1_0)) & 511)) ,  (v__DOT__stato_0 == 6) ,   
+17   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  ((v__DOT__stato_0) & 4) != 0 ,  (~(((v__DOT__stato_0) & 2))) != 0 ,  ((v__DOT__stato_0) & 1) != 0 ,  ((v__DOT__cont1_0) < 26) ,  (v__DOT__cont1_0 == (((v__DOT__cont1_0) - (26)) & 511)) ,  (v__DOT__stato_0 == 5) ,   
+18   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  ((v__DOT__stato_0) & 4) != 0 ,  (~(((v__DOT__stato_0) & 2))) != 0 ,  ((v__DOT__stato_0) & 1) != 0 ,  ((v__DOT__cont1_0) >= 26) ,  (v__DOT__stato_0 == 7) ,   
+20   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  ((v__DOT__stato_0) & 4) != 0 ,  ((v__DOT__stato_0) & 2) != 0 ,  (~(((v__DOT__stato_0) & 1))) != 0 ,  ((v__DOT__cont1_0) < 63) ,  (v__DOT__cont1_0 == (((v__DOT__cont1_0) + (26)) & 511)) ,  (v__DOT__stato_0 == 6) ,   
+21   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  ((v__DOT__stato_0) & 4) != 0 ,  ((v__DOT__stato_0) & 2) != 0 ,  (~(((v__DOT__stato_0) & 1))) != 0 ,  ((v__DOT__cont1_0) >= 63) ,  (v__DOT__stato_0 == 7) ,   
+23   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  ((v__DOT__stato_0) & 4) != 0 ,  ((v__DOT__stato_0) & 2) != 0 ,  ((v__DOT__stato_0) & 1) != 0 ,  (v__DOT__stato_0 == 8) ,  ((((v__DOT__r_in_0) >> 2) & 3) == 0) ,  (v__DOT__cont1_0 == (((v__DOT__cont1_0) - (21)) & 511)) ,   
+24   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  ((v__DOT__stato_0) & 4) != 0 ,  ((v__DOT__stato_0) & 2) != 0 ,  ((v__DOT__stato_0) & 1) != 0 ,  (v__DOT__stato_0 == 8) ,  ((((v__DOT__r_in_0) >> 2) & 3) != 0) ,  ((((v__DOT__r_in_0) >> 2) & 3) == 1) ,  (v__DOT__cont1_0 == (((v__DOT__cont1_0) - (42)) & 511)) ,   
+25   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  ((v__DOT__stato_0) & 4) != 0 ,  ((v__DOT__stato_0) & 2) != 0 ,  ((v__DOT__stato_0) & 1) != 0 ,  (v__DOT__stato_0 == 8) ,  ((((v__DOT__r_in_0) >> 2) & 3) != 0) ,  ((((v__DOT__r_in_0) >> 2) & 3) != 1) ,  ((((v__DOT__r_in_0) >> 2) & 3) == 2) ,  (v__DOT__cont1_0 == (((v__DOT__cont1_0) + (7)) & 511)) ,   
+26   (~(reset_0)) != 0 ,  (~(((v__DOT__stato_0) & 8))) != 0 ,  ((v__DOT__stato_0) & 4) != 0 ,  ((v__DOT__stato_0) & 2) != 0 ,  ((v__DOT__stato_0) & 1) != 0 ,  (v__DOT__stato_0 == 8) ,  ((((v__DOT__r_in_0) >> 2) & 3) != 0) ,  ((((v__DOT__r_in_0) >> 2) & 3) != 1) ,  ((((v__DOT__r_in_0) >> 2) & 3) != 2) ,  (v__DOT__cont1_0 == (((v__DOT__cont1_0) + (28)) & 511)) ,   
+28   (~(reset_0)) != 0 ,  ((v__DOT__stato_0) & 8) != 0 ,  (~(((v__DOT__stato_0) & 4))) != 0 ,  (~(((v__DOT__stato_0) & 2))) != 0 ,  (~(((v__DOT__stato_0) & 1))) != 0 ,  (v__DOT__stato_0 == 1) ,  ((v__DOT__cont1_0) & 256) != 0 ,  (x_out_0 == ((~((v__DOT__cont1_0))) & 63)) ,   
+29   (~(reset_0)) != 0 ,  ((v__DOT__stato_0) & 8) != 0 ,  (~(((v__DOT__stato_0) & 4))) != 0 ,  (~(((v__DOT__stato_0) & 2))) != 0 ,  (~(((v__DOT__stato_0) & 1))) != 0 ,  (v__DOT__stato_0 == 1) ,  (~(((v__DOT__cont1_0) & 256))) != 0 ,  (x_out_0 == ((v__DOT__cont1_0) & 63)) ,   
+31   (~(reset_0)) != 0 ,  ((v__DOT__stato_0) & 8) != 0 ,  (~(((v__DOT__stato_0) & 4))) != 0 ,  (~(((v__DOT__stato_0) & 2))) != 0 ,  ((v__DOT__stato_0) & 1) != 0 ,  (v__DOT__stato_0 == 0) ,   
