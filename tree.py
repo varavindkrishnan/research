@@ -1,4 +1,5 @@
 from operator_types import *
+from cfg import variables
 
 class assign_tree:
     " assignment trees inside each node"
@@ -26,11 +27,20 @@ class assign_tree:
         else:
             assert False
 
-    def get_string(self, cycle_number = 0, level = 0):
+    def get_string(self, cycle_number = 0, level = 0, var_assign_count = None):
+        # accept a dict var count which keeps track of blocking assigns to the var for one cycle for use define purpose
+        # use new dict evey cycle
+        # if two non blocking assings only the last one matters, this can be done when post processing
         assert isinstance(self, assign_tree)
+        count = 0
         assign_dly = False
+        blocking_assign_operator = False
+        assign_operator = False
         ret = ""
         append_flag = False
+        if var_assign_count is None:
+            var_assign_count = {}
+
         if self.key not in comparators and level == 0:
             append_flag = True
 
@@ -38,15 +48,32 @@ class assign_tree:
             if self.key == "ASSIGNDLY":
                 assign_dly = True
 
+            elif self.key == "ASSIGN":
+                blocking_assign_operator = True
+
+            if self.key in assigns:
+                assign_operator = True
+
             key = transform[self.key]
 
         else:
             key = self.key
 
         if len(self.children) == 2:
-            if assign_dly:
-                ret = ret + "(" + self.children[0].get_string(cycle_number + 1, 1) + " " + key + " " + \
-                      self.children[1].get_string(cycle_number, 1) + ")"
+            if assign_operator and blocking_assign_operator:
+                assert self.children[0].key in variables
+                if self.children[0].key in var_assign_count:
+                    count = var_assign_count[self.children[0].key]
+
+                if assign_dly:
+                    ret = ret + "(" + self.children[0].get_string(cycle_number + 1, 1) + " " + key + " " + \
+                          self.children[1].get_string(cycle_number, 1) + ")"
+
+                else:
+                    # ret = ret + "(" + self.children[0].get_string(cycle_number, 1) + " " + key + " " + \
+                    #       self.children[1].get_string(cycle_number, 1) + ")"
+                    ret = ret + "(" + self.children[0].get_string(cycle_number + 1, 1) + " " + key + " " + \
+                          self.children[1].get_string(cycle_number, 1) + ")"
 
             else:
                 ret = ret + "(" + self.children[0].get_string(cycle_number, 1) + " " + key + " " + \
@@ -66,6 +93,10 @@ class assign_tree:
                     temp = str(int(b, 16))
                     ret = ret + "(" + temp + ")"
                     return ret
+
+                if self.children[0].key in var_assign_count:
+                    count = var_assign_count[self.children[0].key]
+                    var_assign_count[self.children[0].key] += 1
 
                 ret = ret + "(" + self.children[0].key + "_" + str(cycle_number) + ")"
 

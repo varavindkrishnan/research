@@ -137,6 +137,7 @@ variables_width = {}
 top_scope_not_seen = True
 inputs = []
 outputs = []
+leaf_nodes = []
 
 while i < len(lines):
 
@@ -166,7 +167,6 @@ while i < len(lines):
 
             print(var_type, " ", var_type == "INPUT")
             if var_type == "INPUT":
-                print("Adding inputs")
                 inputs.append(variables[-1])
 
             elif var_type == "OUTPUT":
@@ -240,3 +240,10 @@ for keys in b:
         print(elements.get_string()), ", ",
 
     print(" ")
+
+coverage_sequence = [28, 20, 5, 14, 2]
+
+constraint_sequence = constraints_from_coverage(coverage_sequence)
+
+for lines in constraint_sequence:
+    print(lines)
