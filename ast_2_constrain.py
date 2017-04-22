@@ -34,12 +34,13 @@ def add_to_solver(solver, constrains):
     return solver
 
 
-def add_variables_to_solver():
+def add_variables_to_solver(var_assign_count_cycle):
+    cycles = len(var_assign_count_cycle)
     var_z3_type = []
 
     for variable in variables:
         # x = BitVec('x', 6)
-        var_z3_type.append(BitVec(variable, variables_width[variable]))
+        var_z3_type.append(BitVec(variable + "_" + str(cycles) + "_" + str(var_assign_count_cycle[cycles][variable]), variables_width[variable]))
         mapping[variable] = len(var_z3_type) - 1
 
     return

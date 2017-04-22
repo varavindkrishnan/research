@@ -5,6 +5,8 @@ terminals = ("CONST", "VARREF")
 
 assigns = ("ASSIGN", "ASSIGNDLY", "ASSIGNW", "ASSIGNPRE", "ASSIGNPOST")
 
+assigns_blocking = ("ASSIGN", "ASSIGNDLY", "ASSIGNW", "ASSIGNPRE", "ASSIGNPOST")
+
 single_operand = ("CCAST", "NEGATE", "NOT", "EXTENDS")
 
 two_operand = ("MULS", "ASSIGN", "ADD", "SUB", "AND", "OR", "ASSIGNDLY", "SHIFTL", "SHIFTR",

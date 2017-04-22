@@ -1,5 +1,5 @@
 from operator_types import *
-from cfg import variables
+# from cfg import variables
 
 class assign_tree:
     " assignment trees inside each node"
@@ -48,7 +48,7 @@ class assign_tree:
             if self.key == "ASSIGNDLY":
                 assign_dly = True
 
-            elif self.key == "ASSIGN":
+            elif self.key in assigns_blocking:
                 blocking_assign_operator = True
 
             if self.key in assigns:
@@ -60,24 +60,32 @@ class assign_tree:
             key = self.key
 
         if len(self.children) == 2:
-            if assign_operator and blocking_assign_operator:
-                assert self.children[0].key in variables
-                if self.children[0].key in var_assign_count:
-                    count = var_assign_count[self.children[0].key]
 
-                if assign_dly:
-                    ret = ret + "(" + self.children[0].get_string(cycle_number + 1, 1) + " " + key + " " + \
-                          self.children[1].get_string(cycle_number, 1) + ")"
+            if assign_operator:
+                # assert self.children[0].key in variables
+                if blocking_assign_operator:
+                    right = self.children[1].get_string(cycle_number, 1,  var_assign_count) + ")"
+
+                    if self.children[0].key not in var_assign_count:
+                        var_assign_count[self.children[0].key] = 0
+
+                    var_assign_count[self.children[0].key] += 1
+                    # add here the count information to the constrain
+                    ret = ret + "(" + self.children[0].get_string(cycle_number, 1, var_assign_count) + " " + key + " " + right
+
+
+                elif assign_dly:
+                    temp = {}
+                    temp[self.children[0].key] = 0
+                    ret = ret + "(" + self.children[0].get_string(cycle_number + 1, 1, temp) + " " + key + " " + \
+                          self.children[1].get_string(cycle_number, 1,  var_assign_count) + ")"
 
                 else:
-                    # ret = ret + "(" + self.children[0].get_string(cycle_number, 1) + " " + key + " " + \
-                    #       self.children[1].get_string(cycle_number, 1) + ")"
-                    ret = ret + "(" + self.children[0].get_string(cycle_number + 1, 1) + " " + key + " " + \
-                          self.children[1].get_string(cycle_number, 1) + ")"
+                    assert False
 
             else:
-                ret = ret + "(" + self.children[0].get_string(cycle_number, 1) + " " + key + " " + \
-                      self.children[1].get_string(cycle_number, 1) + ")"
+                ret = ret + "(" + self.children[0].get_string(cycle_number, 1,  var_assign_count) + " " + key + " " + \
+                      self.children[1].get_string(cycle_number, 1,  var_assign_count) + ")"
 
             if append_flag:
                 ret = ret + " != 0"
@@ -94,11 +102,10 @@ class assign_tree:
                     ret = ret + "(" + temp + ")"
                     return ret
 
-                if self.children[0].key in var_assign_count:
-                    count = var_assign_count[self.children[0].key]
-                    var_assign_count[self.children[0].key] += 1
+                if self.children[0].key not in var_assign_count:
+                    var_assign_count[self.children[0].key] = 0
 
-                ret = ret + "(" + self.children[0].key + "_" + str(cycle_number) + ")"
+                ret = ret + "(" + self.children[0].key + "_" + str(cycle_number) + "_" + str(var_assign_count[self.children[0].key]) + ")"
 
                 if append_flag:
                     ret = ret + " != 0"
@@ -119,10 +126,21 @@ class assign_tree:
                 return key
 
             if append_flag:
-                return key + "_" + str(cycle_number) + " != 0"
+                if key not in var_assign_count:
+                    var_assign_count[key] = 0
+                    return key + "_" + str(cycle_number) + "_" + str(var_assign_count[key]) + " != 0"
+
+                else:
+                    return key + "_" + str(cycle_number) + "_" + str(var_assign_count[key]) + " != 0"
 
             else:
-                return key + "_" + str(cycle_number)
+                if key not in var_assign_count:
+                    var_assign_count[key] = 0
+                    return key + "_" + str(cycle_number) + "_" + str(var_assign_count[key])
+
+                else:
+                    return key + "_" + str(cycle_number) + "_" + str(var_assign_count[key])
+
 
         else:
             assert False

@@ -48,15 +48,18 @@ def constraints_from_coverage(list):
     # use defenition chains for multiple assigns in the same cycle <var_name>_<cycle_no>_<define_no>
     constraints = []
     cycle_number = 0
+    var_assign_count_cycle = []
     for nodes in list:
+        var_assign_count = {}
         if nodes not in leaf_covid:
             print("This node ", nodes, " is not a leaf node")
             assert False
 
         for predicates in leaf_predicate[nodes]:
-            constraints.append(predicates.get_string(cycle_number))
+            constraints.append(predicates.get_string(cycle_number, 0, var_assign_count))
 
         cycle_number += 1
+        var_assign_count_cycle.append(var_assign_count)
 
-    return constraints
+    return constraints, var_assign_count_cycle
 
