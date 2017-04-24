@@ -36,24 +36,27 @@ s = Solver()
 #
 # s.add(count[19] == 129)
 
-x = BitVec('x', 6)
-y2 = BitVec('y2', 6)
-y4 = BitVec('y4', 6)
-y8 = BitVec('y8', 6)
-v__DOT__r_in = BitVec('v__DOT__r_in', 6)
-# eval("s.add(x&2 != 0, ~x&4 != 0, ~x&8 != 0, y2 == 2, y4 == 4, y8 == 8)")
-# exec "s.add((x>>2)&63 != 0, ~x&4 != 0, ~x&8 != 0, y2 == 2, y4 == 4, y8 == 8)"
-exec "s.add((~(x)<<2)&8 == 0)"
-exec "s.add((((v__DOT__r_in) >> 2) & 3) != 0)"
-exec "s.add((((v__DOT__r_in) >> 2) & 3) != 1)"
-exec "s.add((((v__DOT__r_in) >> 2) & 3) != 2)"
+# x = BitVec('x', 6)
+# y2 = BitVec('y2', 6)
+# y4 = BitVec('y4', 6)
+# y8 = BitVec('y8', 6)
+# v__DOT__r_in = BitVec('v__DOT__r_in', 6)
+# # eval("s.add(x&2 != 0, ~x&4 != 0, ~x&8 != 0, y2 == 2, y4 == 4, y8 == 8)")
+# # exec "s.add((x>>2)&63 != 0, ~x&4 != 0, ~x&8 != 0, y2 == 2, y4 == 4, y8 == 8)"
+# exec "s.add((~(x)<<2)&8 == 0)"
+# exec "s.add((((v__DOT__r_in) >> 2) & 3) != 0)"
+# exec "s.add((((v__DOT__r_in) >> 2) & 3) != 1)"
+# exec "s.add((((v__DOT__r_in) >> 2) & 3) != 2)"
 # s.add(v__DOT__r_in == 10)
-s.check()
 
+exec "r = BitVec(\'reset_0_0\', 1)"
+exec "v__DOT__stato_0_0 = BitVec(\'v__DOT__stato_0_0\', 5)"
+exec "s.add((~(r)) != 0 ,  ((v__DOT__stato_0_0) & 8) != 0 ,  (~(((v__DOT__stato_0_0) & 4))) != 0 ,  (~(((v__DOT__stato_0_0) & 2))) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0)"
+s.check()
 try:
     print(s.model())
     k = s.model()
-    print(k[v__DOT__r_in])
+    print(k)
 
 except Z3Exception:
     print("Expression is unsat")

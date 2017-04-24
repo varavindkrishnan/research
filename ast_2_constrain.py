@@ -1,6 +1,5 @@
 from tree import assign_tree
 from operator_types import *
-from cfg import variables, variables_width
 from z3 import *
 
 solver = Solver()
@@ -34,15 +33,25 @@ def add_to_solver(solver, constrains):
     return solver
 
 
-def add_variables_to_solver(var_assign_count_cycle):
+def add_variables_to_solver(var_assign_count_cycle, variables, variables_width):
     cycles = len(var_assign_count_cycle)
-    var_z3_type = []
+    # var_z3_type = []
 
     for variable in variables:
         # x = BitVec('x', 6)
-        var_z3_type.append(BitVec(variable + "_" + str(cycles) + "_" + str(var_assign_count_cycle[cycles][variable]), variables_width[variable]))
-        mapping[variable] = len(var_z3_type) - 1
+        command = ""
+        assert isinstance(variable, str)
+        for c in range(cycles):
+            if variable not in var_assign_count_cycle:
+                command = variable + "_" + str(c) + "_" + str(0) + "=BitVec( \'" + variable + "_" + str(c) + "_" + str(0) + "\'", variables_width[variable] + ")"
 
+            else:
+                for i in range(var_assign_count_cycle[variable]):
+                    command = variable + "_" + str(c) + "_" + str(i) + "=BitVec( \'" + variable + "_" + str(c) + "_" + str(i) + "\'", variables_width[variable] + ")"
+        exec command
+
+        # var_z3_type.append(BitVec(variable + "_" + str(cycles) + "_" + str(var_assign_count_cycle[cycles][variable]),
+        #  variables_width[variable]))
     return
 
 
