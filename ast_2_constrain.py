@@ -63,3 +63,10 @@ def solve_now(solver):
     else:
         return solver.model()
 
+
+def analyze_constraints(constraint_stack):
+    return
+
+
+def invert_constraints(constraints_stack):
+    return

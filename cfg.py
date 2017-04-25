@@ -243,7 +243,10 @@ for keys in b:
 
 coverage_sequence = [28, 20, 5, 14, 2]
 
-constraint_sequence = constraints_from_coverage(coverage_sequence)
+constraint_sequence, var_assign_count = constraints_from_coverage(coverage_sequence, b)
 
+print("Constraints for node")
+
+print(len(constraint_sequence))
 for lines in constraint_sequence:
     print(lines)

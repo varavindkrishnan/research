@@ -40,7 +40,7 @@ def extract_relevant_constraints(constraint_stack):
     return
 
 
-def constraints_from_coverage(list):
+def constraints_from_coverage(list, predicate_of_leaves):
     # from a given list of terminal branches construct the constraint stack
     # how to handle multiple assign and references to variables during the same cycle?
     # keep track of variables assigned in a given flow, if assigned track only the last assignment, if used then use
@@ -55,7 +55,7 @@ def constraints_from_coverage(list):
             print("This node ", nodes, " is not a leaf node")
             assert False
 
-        for predicates in leaf_predicate[nodes]:
+        for predicates in predicate_of_leaves[nodes]:
             constraints.append(predicates.get_string(cycle_number, 0, var_assign_count))
 
         cycle_number += 1

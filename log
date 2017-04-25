@@ -246,6 +246,8 @@ Input Vars
 28   (~(reset_0_0)) != 0 ,  ((v__DOT__stato_0_0) & 8) != 0 ,  (~(((v__DOT__stato_0_0) & 4))) != 0 ,  (~(((v__DOT__stato_0_0) & 2))) != 0 ,  (~(((v__DOT__stato_0_0) & 1))) != 0 ,  (v__DOT__stato_0_1 == 1) ,  ((v__DOT__cont1_0_0) & 256) != 0 ,  (x_out_0_1 == ((~((v__DOT__cont1_0_0))) & 63)) ,   
 29   (~(reset_0_0)) != 0 ,  ((v__DOT__stato_0_0) & 8) != 0 ,  (~(((v__DOT__stato_0_0) & 4))) != 0 ,  (~(((v__DOT__stato_0_0) & 2))) != 0 ,  (~(((v__DOT__stato_0_0) & 1))) != 0 ,  (v__DOT__stato_0_1 == 1) ,  (~(((v__DOT__cont1_0_0) & 256))) != 0 ,  (x_out_0_1 == ((v__DOT__cont1_0_0) & 63)) ,   
 31   (~(reset_0_0)) != 0 ,  ((v__DOT__stato_0_0) & 8) != 0 ,  (~(((v__DOT__stato_0_0) & 4))) != 0 ,  (~(((v__DOT__stato_0_0) & 2))) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (v__DOT__stato_0_1 == 0) ,   
+Constraints for node
+42
 (~(reset_0_0)) != 0
 ((v__DOT__stato_0_0) & 8) != 0
 (~(((v__DOT__stato_0_0) & 4))) != 0
