@@ -219,7 +219,7 @@ def print_cfg(node_a):
         print_node(nodes)
 
 print_cfg(node_a)
-
+# TODO
 for nodes in node_a:
     print(nodes)
 
@@ -240,6 +240,11 @@ for keys in b:
         print(elements.get_string()), ", ",
 
     print(" ")
+
+nodeid_node_mapping = {}
+for node in node_a[:2]:
+    node.get_nodeid_node_map(nodeid_node_mapping)
+
 
 coverage_sequence = [28, 20, 5, 14, 2]
 

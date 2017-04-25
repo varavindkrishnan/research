@@ -50,16 +50,28 @@ def constraints_from_coverage(list, predicate_of_leaves):
     cycle_number = 0
     var_assign_count_cycle = []
     for nodes in list:
+        constraints.append([])
         var_assign_count = {}
         if nodes not in leaf_covid:
             print("This node ", nodes, " is not a leaf node")
             assert False
 
         for predicates in predicate_of_leaves[nodes]:
-            constraints.append(predicates.get_string(cycle_number, 0, var_assign_count))
+            constraints[-1].append(predicates.get_string(cycle_number, 0, var_assign_count))
 
         cycle_number += 1
         var_assign_count_cycle.append(var_assign_count)
 
     return constraints, var_assign_count_cycle
 
+
+def clock_reset_vars(inputs, file_name):
+    f = open(file_name, 'r')
+    lines = f.readlines()
+
+    safe_inputs = []
+    for vars in inputs:
+        if vars not in lines:
+            safe_inputs.append(vars)
+
+    return safe_inputs

@@ -1,6 +1,26 @@
 from operator_types import *
 # from cfg import variables
 
+
+class variable_object:
+    " object to hold variable name and cycle and UD annotation and value"
+    def __init__(self, key):
+        self.key = key
+        self.value = {}
+        self.ud = []
+
+    def __repr__(self, cycle):
+        return repr(self.key) + "_" + str(cycle) + " " + str(self.ud[cycle])
+
+    def value_of_cycle_define(self, cycle, define, value):
+        if cycle in self.value:
+            self.value[cycle][define] = value
+
+        else:
+            self.value[cycle] = {}
+            self.value[cycle][define] = value
+
+
 class assign_tree:
     " assignment trees inside each node"
     def __init__(self, key=None, children = None):
@@ -176,6 +196,11 @@ class control_flow_tree:
             ret += child.__repr__(level + 1)
         return ret
 
+    def get_nodeid_node_map(self, map):
+        map[self.cov_id] = self
+        for children in self.children:
+            children.get_nodeid_node_map(map)
+
 
 def swap_operator(ast_tree):
     assert isinstance(ast_tree, assign_tree)
@@ -189,6 +214,11 @@ def swap_operator(ast_tree):
         ast_tree.key = "NOT"
         ast_tree.children = [new_node]
 
+
+# TODO create variable object to hold variable, cycle and use define id, make it easier to check for conflict in constrain
+# TODO write constraint analyzer by checking assigns for variables which are on conflict
+# TODO if variable is not touced in a cycle reuse from previous cycle, the last assigns using var assign count dict
+# TODO Have a dict for variables for easy look up ?
 
 
 
