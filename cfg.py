@@ -137,7 +137,8 @@ def get_if_then_nodes(i, lines):
 
 def initialize_ckt_data(file_name = "b11_Vtop_990_final.tree"):
     global last_number
-    last_number = 32
+    last_number = 0
+    num_cov_pts = 0
     ast = open(file_name, 'r')
     lines = ast.readlines()
     ast.close()
@@ -188,6 +189,7 @@ def initialize_ckt_data(file_name = "b11_Vtop_990_final.tree"):
 
         elif operator == "COVERDECL":
             last_number = coverage_nu(lines[i])
+            num_cov_pts = last_number
             i += 1
 
         elif operator == "TOPSCOPE":
@@ -197,6 +199,6 @@ def initialize_ckt_data(file_name = "b11_Vtop_990_final.tree"):
         else:
             i += 1
 
-    return node_a, variables, variables_width, inputs, outputs
+    return node_a, variables, variables_width, inputs, outputs, num_cov_pts
 
 

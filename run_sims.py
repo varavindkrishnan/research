@@ -1,11 +1,11 @@
 from cfg import initialize_ckt_data
-from generate_ip_vector import write_vector_to_file
+from generate_ip_vector import write_vector_to_file, generate_random_ip_vector, run_sim
 from parse_tree import get_second_level, get_third_level, get_assign_tree, indent_level, get_last_level, get_token, get_width, get_var_type
 from scan_file import get_operator, coverage_nu
 from tree import control_flow_tree, swap_operator
 from operator_types import *
 from cfg_functions import *
-
+from ast_2_constrain import add_variables_to_solver, solve_now, add_to_solver
 
 def print_node(node):
     if len(node.children) > 0:
@@ -55,7 +55,7 @@ def print_cfg(node_a):
 
 # get_nodeid_node_map, lets us access node by directly using cov id
 
-node_a, variables, variables_width, inputs, outputs = initialize_ckt_data()
+node_a, variables, variables_width, inputs, outputs, num_cov_pts = initialize_ckt_data()
 
 
 print_cfg(node_a)
@@ -86,13 +86,21 @@ nodeid_node_mapping = {}
 for node in node_a[:2]:
     node.get_nodeid_node_map(nodeid_node_mapping)
 
+#
+# print("Constraints for node")
+#
+# print(len(constraint_sequence))
+# for lines in constraint_sequence:
+#     print(lines)
+
+vector = generate_random_ip_vector(variables_width, inputs)
+write_vector_to_file(vector, "bench/ex1/lev_vec.vec", variables_width, inputs)
+cmd = "bench/ex1/a.out"
+run_sim(cmd)
 
 coverage_sequence = [28, 20, 5, 14, 2]
 
-constraint_sequence, var_assign_count = constraints_from_coverage(coverage_sequence, b)
-
-print("Constraints for node")
-
-print(len(constraint_sequence))
-for lines in constraint_sequence:
-    print(lines)
+constraint_sequence, var_assign_count_cycle = constraints_from_coverage(coverage_sequence, b)
+add_variables_to_solver(var_assign_count_cycle, variables, variables_width)
+add_to_solver(s, constraint_sequence)
+solve_now(s)

@@ -1,4 +1,5 @@
 from random import randrange
+from subprocess import call
 
 values = []
 
@@ -15,6 +16,11 @@ def generate_random_ip_vector(variables_width, inputs, cycles = 100):
 
 def write_vector_to_file(values, name, variables_width, inputs):
     f = open(name, 'w')
+    total_width = 0
+    for keys in variables_width:
+        total_width += variables_width[keys]
+
+    f.write(str(total_width) + "\n")
     for i in range(len(values)):
         line = ""
         for var in inputs:
@@ -38,6 +44,7 @@ def write_vector_to_file(values, name, variables_width, inputs):
         line += "\n"
         f.write(line)
 
+    f.write("END")
     return
 
 
@@ -55,3 +62,8 @@ def read_coverage_pt_toggles(name, cycles, leaves_dict):
                 leaves_cycle[-1].append(keys)
 
     return leaves_cycles
+
+
+def run_sim(cmd):
+    call(cmd)
+

@@ -112,7 +112,18 @@
 # for lines in f:
 #     if " VAR " in lines:
 #         print(get_width(lines))
+#
+# import exmod
+#
+# print(exmod.add(12.1, 3.1))
 
-import exmod
+from ast_2_constrain import parse_trace
 
-print(exmod.add(12.1, 3.1))
+toggles = parse_trace("coverage_cycle.trace", 19)
+
+for i in range(len(toggles)):
+    print "Toggles in cycle ", i, " : ",
+    for c in toggles[i]:
+        print c,
+    print("")
+

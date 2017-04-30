@@ -70,3 +70,17 @@ def analyze_constraints(constraint_stack):
 
 def invert_constraints(constraints_stack):
     return
+
+
+def parse_trace(name, num_points):
+    f = open(name, 'r')
+    lines = f.readlines()
+    coverage_cycle = []
+    for line in lines:
+        coverage_cycle.append([0]*num_points)
+        line = line[:-2]
+        values = line.split(',')
+        for number in values:
+            coverage_cycle[-1][int(number)] = 1
+
+    return coverage_cycle
