@@ -41,6 +41,7 @@ def print_cfg(node_a):
 
 # node_a contains list of parent nodes, ie for each always block
 
+
 # get leaves and traces parses the the above node_a to get the list of leaves of each of the trees in each of the always
 #  block along with its corresponding cov_id
 
