@@ -178,6 +178,7 @@ class control_flow_tree:
         self.predicate = predicate
         self.children = []
         self.state = state
+        self.opposite_id = None
         if children is not None:
             for child in children:
                 assert isinstance(child, control_flow_tree)
@@ -196,10 +197,10 @@ class control_flow_tree:
             ret += child.__repr__(level + 1)
         return ret
 
-    def get_nodeid_node_map(self, map):
-        map[self.cov_id] = self
+    def get_nodeid_node_map(self, mapping):
+        mapping[self.cov_id] = self
         for children in self.children:
-            children.get_nodeid_node_map(map)
+            children.get_nodeid_node_map(mapping)
 
 
 def swap_operator(ast_tree):
@@ -215,10 +216,13 @@ def swap_operator(ast_tree):
         ast_tree.children = [new_node]
 
 
-# TODO create variable object to hold variable, cycle and use define id, make it easier to check for conflict in constrain
+# TODO create variable object to hold variable, cycle and use define id, make it easier to check for conflict
+# TODO in constrain
 # TODO write constraint analyzer by checking assigns for variables which are on conflict
 # TODO if variable is not touced in a cycle reuse from previous cycle, the last assigns using var assign count dict
 # TODO Have a dict for variables for easy look up ?
-
+# TODO Harness, pick file and simulate, print coverage pts per cycle in a line per cycle in a file.
+# TODO Nothing but an executable
+# TODO Need mapping for a given cov_id and its inverse to prevent constrain inversion to already covered node
 
 
