@@ -1,0 +1,1 @@
+g++ -std=c++11 -I/home/arkrish/research/beacon/parallel/proactive-verilator/include/ get_sim_trace_dyn_load.cpp DynamicLoader/DynamicCircuitLoader.cpp DynamicLoader/DpiImp_op.cpp -ldl -O3 -o get_sim_trace.o

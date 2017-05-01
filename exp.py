@@ -116,14 +116,15 @@
 # import exmod
 #
 # print(exmod.add(12.1, 3.1))
-
-from ast_2_constrain import parse_trace
-
-toggles = parse_trace("coverage_cycle.trace", 19)
-
-for i in range(len(toggles)):
-    print "Toggles in cycle ", i, " : ",
-    for c in toggles[i]:
-        print c,
-    print("")
-
+#
+# from ast_2_constrain import parse_trace
+#
+# toggles = parse_trace("coverage_cycle.trace", 19)
+#
+# for i in range(len(toggles)):
+#     print "Toggles in cycle ", i, " : ",
+#     for c in toggles[i]:
+#         print c,
+#     print("")
+from subprocess import call
+call(["./bench/get_sim_trace.o", "-libpath", "./bench/b11.so"])

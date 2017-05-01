@@ -40,7 +40,8 @@ def extract_relevant_constraints(constraint_stack):
     return
 
 
-def constraints_from_coverage(list, predicate_of_leaves):
+def constraints_from_coverage(list_cov_pts, predicate_of_leaves, variables, inputs, outputs):
+    print("list :", list_cov_pts)
     # from a given list of terminal branches construct the constraint stack
     # how to handle multiple assign and references to variables during the same cycle?
     # keep track of variables assigned in a given flow, if assigned track only the last assignment, if used then use
@@ -49,15 +50,29 @@ def constraints_from_coverage(list, predicate_of_leaves):
     constraints = []
     cycle_number = 0
     var_assign_count_cycle = []
-    for nodes in list:
-        constraints.append([])
+    for cycles in list_cov_pts:
         var_assign_count = {}
-        if nodes not in leaf_covid:
-            print("This node ", nodes, " is not a leaf node")
-            assert False
+        initial_list = []
+        if cycle_number > 0:
+            for vars in variables:
+                if (vars not in inputs) and (vars not in outputs):
+                    line = ""
+                    if vars in var_assign_count_cycle[cycle_number - 1]:
+                        temp = str(var_assign_count_cycle[cycle_number - 1][vars])
 
-        for predicates in predicate_of_leaves[nodes]:
-            constraints[-1].append(predicates.get_string(cycle_number, 0, var_assign_count))
+                    else:
+                        temp = "0"
+                    line += vars + "_" + str(cycle_number) + "_0 == " + vars + "_" + str(cycle_number - 1) + "_" + temp
+                    initial_list.append(line)
+
+        for nodes in cycles:
+            constraints.append(initial_list)
+            if nodes not in leaf_covid:
+                print("This node ", nodes, " is not a leaf node")
+                assert False
+
+            for predicates in predicate_of_leaves[nodes]:
+                constraints[-1].append(predicates.get_string(cycle_number, 0, var_assign_count))
 
         cycle_number += 1
         var_assign_count_cycle.append(var_assign_count)

@@ -45,7 +45,7 @@ transform["SHIFTR"] = ">>"
 transform["NEGATE"] = "~"
 transform["XOR"] = '^'
 transform["AND"] = "&"
-transform["OR"] = "|"
+transform["OR"] = "||"
 transform["NOT"] = "~"
 
 comparators = ("ASSIGN", "ASSIGNPRE", "ASSIGNPOST", "ASSIGNDLY", "EQ", "NEQ", "GT", "GTE", "LT", "LTE")

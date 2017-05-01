@@ -48,10 +48,18 @@ s = Solver()
 # exec "s.add((((v__DOT__r_in) >> 2) & 3) != 1)"
 # exec "s.add((((v__DOT__r_in) >> 2) & 3) != 2)"
 # s.add(v__DOT__r_in == 10)
+#
+# exec "r = BitVec(\'reset_0_0\', 1)"
+# exec "v__DOT__stato_0_0 = BitVec(\'v__DOT__stato_0_0\', 5)"
+# exec "s.add((~(r)) != 0 ,v__DOT__stato_0_0 == 15 , ((v__DOT__stato_0_0) & 8) != 0 ,  ~(((v__DOT__stato_0_0) & 4)) != 0 ,  (~(((v__DOT__stato_0_0) & 2))) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0)"
+#
 
-exec "r = BitVec(\'reset_0_0\', 1)"
-exec "v__DOT__stato_0_0 = BitVec(\'v__DOT__stato_0_0\', 5)"
-exec "s.add((~(r)) != 0 ,  ((v__DOT__stato_0_0) & 8) != 0 ,  (~(((v__DOT__stato_0_0) & 4))) != 0 ,  (~(((v__DOT__stato_0_0) & 2))) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0)"
+v__DOT__r_in_3_0 = BitVec('v__DOT__r_in_3_0', 6)
+
+# s.add((((v__DOT__r_in_3_0) & 63) or ((v__DOT__r_in_3_0) == 0)))
+
+s.add(((v__DOT__r_in_3_0) & 63) != 0)
+
 s.check()
 try:
     print(s.model())
@@ -60,4 +68,3 @@ try:
 
 except Z3Exception:
     print("Expression is unsat")
-

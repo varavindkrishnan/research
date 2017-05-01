@@ -212,8 +212,9 @@ def swap_operator(ast_tree):
 
     else:
         new_node = assign_tree(ast_tree.key, ast_tree.children)
-        ast_tree.key = "NOT"
-        ast_tree.children = [new_node]
+        new_node_2 = assign_tree("1'h0\n")
+        ast_tree.key = "EQ"
+        ast_tree.children = [new_node, new_node_2]
 
 
 # TODO create variable object to hold variable, cycle and use define id, make it easier to check for conflict
@@ -224,5 +225,5 @@ def swap_operator(ast_tree):
 # TODO Harness, pick file and simulate, print coverage pts per cycle in a line per cycle in a file.
 # TODO Nothing but an executable
 # TODO Need mapping for a given cov_id and its inverse to prevent constrain inversion to already covered node
-
+# TODO Move down constrain stack
 
