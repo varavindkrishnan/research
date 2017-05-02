@@ -22,10 +22,11 @@ class variable_object:
 
 
 class assign_tree:
-    " assignment trees inside each node"
-    def __init__(self, key=None, children = None):
+    " assignment trees inside each node "
+    def __init__(self, key=None, children = None, is_predicate = False):
         self.key = key
         self.children = []
+        self.is_predicate = is_predicate
         if children is not None:
             for child in children:
                 assert isinstance(child, assign_tree)
@@ -47,11 +48,28 @@ class assign_tree:
         else:
             assert False
 
+    def is_bool(self):
+
+        if self.key in comparators:
+            return True
+
+        else:
+            if len(self.children) == 0:
+                return False
+
+            elif len(self.children) == 1:
+                return self.children[0].is_bool()
+
+            else:
+                return self.children[0].is_bool() and self.children[0].is_bool()
+
+
     def get_string(self, cycle_number = 0, level = 0, var_assign_count = None):
         # accept a dict var count which keeps track of blocking assigns to the var for one cycle for use define purpose
         # use new dict evey cycle
         # if two non blocking assings only the last one matters, this can be done when post processing
         assert isinstance(self, assign_tree)
+        print(self)
         count = 0
         assign_dly = False
         blocking_assign_operator = False
@@ -60,6 +78,28 @@ class assign_tree:
         append_flag = False
         if var_assign_count is None:
             var_assign_count = {}
+
+        if ((self.key == "OR" or self.key =="AND") and self.is_bool()) or self.key == "NOR" or self.key == "NAND":
+
+            if self.key == "OR":
+                op = "Or"
+                temp = op + "(" + self.children[0].get_string(cycle_number, 1,  var_assign_count) + "," + self.children[1].get_string(cycle_number, 1,  var_assign_count) + ")"
+                return temp
+
+            elif self.key == "AND":
+                op = "And"
+                temp = op + "(" + self.children[0].get_string(cycle_number, 1,  var_assign_count) + "," + self.children[1].get_string(cycle_number, 1,  var_assign_count) + ")"
+                return temp
+
+            elif self.key == "NOR":
+                op = "Or"
+                temp = op + "(" + self.children[0].get_string(cycle_number, 1,  var_assign_count) + "," + self.children[1].get_string(cycle_number, 1,  var_assign_count) + ")"
+                return "Not(" + temp + ")"
+
+            else:
+                op = "And"
+                temp = op + "(" + self.children[0].get_string(cycle_number, 1,  var_assign_count) + "," + self.children[1].get_string(cycle_number, 1,  var_assign_count) + ")"
+                return "Not(" + temp + ")"
 
         if self.key not in comparators and level == 0:
             append_flag = True
@@ -92,7 +132,6 @@ class assign_tree:
                     var_assign_count[self.children[0].key] += 1
                     # add here the count information to the constrain
                     ret = ret + "(" + self.children[0].get_string(cycle_number, 1, var_assign_count) + " " + key + " " + right
-
 
                 elif assign_dly:
                     temp = {}
@@ -161,9 +200,14 @@ class assign_tree:
                 else:
                     return key + "_" + str(cycle_number) + "_" + str(var_assign_count[key])
 
-
         else:
             assert False
+
+    def generate_Z3_constrain(self):
+        return
+
+    def get_predicate(self):
+        return
 
 
 class control_flow_tree:
@@ -211,6 +255,15 @@ def swap_operator(ast_tree):
         ast_tree.key = invert[ast_tree.key]
 
     else:
+        if(ast_tree.key == "OR" or ast_tree.key =="AND") and ast_tree.is_bool():
+            if ast_tree.key == "OR":
+                ast_tree.key = "NOR"
+                return
+
+            else:
+                ast_tree.key = "NAND"
+                return
+
         new_node = assign_tree(ast_tree.key, ast_tree.children)
         new_node_2 = assign_tree("1'h0\n")
         ast_tree.key = "EQ"
@@ -220,10 +273,8 @@ def swap_operator(ast_tree):
 # TODO create variable object to hold variable, cycle and use define id, make it easier to check for conflict
 # TODO in constrain
 # TODO write constraint analyzer by checking assigns for variables which are on conflict
-# TODO if variable is not touced in a cycle reuse from previous cycle, the last assigns using var assign count dict
 # TODO Have a dict for variables for easy look up ?
-# TODO Harness, pick file and simulate, print coverage pts per cycle in a line per cycle in a file.
-# TODO Nothing but an executable
-# TODO Need mapping for a given cov_id and its inverse to prevent constrain inversion to already covered node
 # TODO Move down constrain stack
-
+# TODO post and pre assign buffer variables to be resolved
+# TODO order of functions executed in _eval
+# TODO Extent bit vec to make z3 happy

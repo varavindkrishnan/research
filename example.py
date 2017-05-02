@@ -56,15 +56,15 @@ s = Solver()
 
 v__DOT__r_in_3_0 = BitVec('v__DOT__r_in_3_0', 6)
 
-# s.add((((v__DOT__r_in_3_0) & 63) or ((v__DOT__r_in_3_0) == 0)))
+s.add( Not(Or((v__DOT__r_in_3_0 == 2), (v__DOT__r_in_3_0 == 22))) )
 
-s.add(((v__DOT__r_in_3_0) & 63) != 0)
+# s.add(((v__DOT__r_in_3_0) & 63) != 0)
 
 s.check()
 try:
     print(s.model())
     k = s.model()
-    print(k)
+    #print(k)
 
 except Z3Exception:
     print("Expression is unsat")

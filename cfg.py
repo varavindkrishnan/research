@@ -54,6 +54,7 @@ def get_then(j, lines, predicate):
         children[0].opposite_id = children[1].cov_id
         children[1].opposite_id = children[0].cov_id
 
+    predicate.is_predicate = True
     return control_flow_tree(predicate, True, key, children, cov_id)
 
 
@@ -103,6 +104,7 @@ def get_otherwise(j, lines, predicate):
         children[0].opposite_id = children[1].cov_id
         children[1].opposite_id = children[0].cov_id
 
+    predicate.is_predicate = True
     return control_flow_tree(predicate, False, key, children, cov_id)
 
 
