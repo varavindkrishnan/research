@@ -51,36 +51,21 @@ s = Solver()
 #
 # exec "r = BitVec(\'reset_0_0\', 1)"
 # exec "v__DOT__stato_0_0 = BitVec(\'v__DOT__stato_0_0\', 5)"
-# exec "s.add((~(r)) != 0 ,v__DOT__stato_0_0 == 15 , ((v__DOT__stato_0_0) & 8) != 0 ,  ~(((v__DOT__stato_0_0) & 4)) != 0 ,  (~(((v__DOT__stato_0_0) & 2))) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0)"
+# exec "s.add((~(r)) != 0 ,v__DOT__stato_0_0 == 15 , ((v__DOT__stato_0_0) & 8) != 0 ,  ~(((v__DOT__stato_0_0) & 4)) != 0
+# ,  (~(((v__DOT__stato_0_0) & 2))) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0)"
 #
-ctx = main_ctx()
 
+v__DOT__r_in_3_0 = BitVec('v__DOT__r_in_3_0', 6)
 
-def add_variables():
-    v__DOT__r_in_3_0 = BitVec('v__DOT__r_in_3_0', 6, ctx)
-
-
-def add_constraints_1():
-    v__DOT__r_in_3_0 = BitVec('v__DOT__r_in_3_0', 6)
-    s.add( Not(Or((v__DOT__r_in_3_0 == 18), (v__DOT__r_in_3_0 == 22))))
-
-
-def add_constraints_2():
-    v__DOT__r_in_3_0 = BitVec('v__DOT__r_in_3_0', 6)
-    s.add( Not(Or((v__DOT__r_in_3_0 == 41), (v__DOT__r_in_3_0 == 12))))
-    v__DOT__r_in_3_0.size()
-    print v__DOT__r_in_3_0.size()
+s.add( (((v__DOT__r_in_3_0) == 63) | ((v__DOT__r_in_3_0) == 0)) != 0 )
 
 # s.add(((v__DOT__r_in_3_0) & 63) != 0)
 
-add_constraints_1()
-add_constraints_2()
 s.check()
 try:
     print(s.model())
     k = s.model()
-    #print(k)
+    print(k)
 
 except Z3Exception:
     print("Expression is unsat")
-

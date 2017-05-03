@@ -63,13 +63,11 @@ class assign_tree:
             else:
                 return self.children[0].is_bool() and self.children[0].is_bool()
 
-
     def get_string(self, cycle_number = 0, level = 0, var_assign_count = None):
         # accept a dict var count which keeps track of blocking assigns to the var for one cycle for use define purpose
         # use new dict evey cycle
         # if two non blocking assings only the last one matters, this can be done when post processing
         assert isinstance(self, assign_tree)
-        print(self)
         count = 0
         assign_dly = False
         blocking_assign_operator = False
@@ -202,13 +200,149 @@ class assign_tree:
 
         else:
             assert False
-
-    def generate_Z3_constrain(self):
-        return
-
-    def get_predicate(self):
-        return
-
+    #
+    # def generate_Z3_constrain(self):
+    #     # accept a dict var count which keeps track of blocking assigns to the var for one cycle for use define purpose
+    #     # use new dict evey cycle
+    #     # if two non blocking assings only the last one matters, this can be done when post processing
+    #     assert isinstance(self, assign_tree)
+    #     print(self)
+    #     count = 0
+    #     assign_dly = False
+    #     blocking_assign_operator = False
+    #     assign_operator = False
+    #     ret = ""
+    #     append_flag = False
+    #     if var_assign_count is None:
+    #         var_assign_count = {}
+    #
+    #     if ((self.key == "OR" or self.key =="AND") and self.is_bool()) or self.key == "NOR" or self.key == "NAND":
+    #
+    #         if self.key == "OR":
+    #             op = "Or"
+    #             temp = op + "(" + self.children[0].get_string(cycle_number, 1,  var_assign_count) + "," + self.children[1].get_string(cycle_number, 1,  var_assign_count) + ")"
+    #             return temp
+    #
+    #         elif self.key == "AND":
+    #             op = "And"
+    #             temp = op + "(" + self.children[0].get_string(cycle_number, 1,  var_assign_count) + "," + self.children[1].get_string(cycle_number, 1,  var_assign_count) + ")"
+    #             return temp
+    #
+    #         elif self.key == "NOR":
+    #             op = "Or"
+    #             temp = op + "(" + self.children[0].get_string(cycle_number, 1,  var_assign_count) + "," + self.children[1].get_string(cycle_number, 1,  var_assign_count) + ")"
+    #             return "Not(" + temp + ")"
+    #
+    #         else:
+    #             op = "And"
+    #             temp = op + "(" + self.children[0].get_string(cycle_number, 1,  var_assign_count) + "," + self.children[1].get_string(cycle_number, 1,  var_assign_count) + ")"
+    #             return "Not(" + temp + ")"
+    #
+    #     if self.key not in comparators and level == 0:
+    #         append_flag = True
+    #
+    #     if self.key in transform:
+    #         if self.key == "ASSIGNDLY":
+    #             assign_dly = True
+    #
+    #         elif self.key in assigns_blocking:
+    #             blocking_assign_operator = True
+    #
+    #         if self.key in assigns:
+    #             assign_operator = True
+    #
+    #         key = transform[self.key]
+    #
+    #     else:
+    #         key = self.key
+    #
+    #     if len(self.children) == 2:
+    #
+    #         if assign_operator:
+    #             # assert self.children[0].key in variables
+    #             if blocking_assign_operator:
+    #                 right = self.children[1].get_string(cycle_number, 1,  var_assign_count) + ")"
+    #
+    #                 if self.children[0].key not in var_assign_count:
+    #                     var_assign_count[self.children[0].key] = 0
+    #
+    #                 var_assign_count[self.children[0].key] += 1
+    #                 # add here the count information to the constrain
+    #                 ret = ret + "(" + self.children[0].get_string(cycle_number, 1, var_assign_count) + " " + key + " " + right
+    #
+    #             elif assign_dly:
+    #                 temp = {}
+    #                 temp[self.children[0].key] = 0
+    #                 ret = ret + "(" + self.children[0].get_string(cycle_number + 1, 1, temp) + " " + key + " " + \
+    #                       self.children[1].get_string(cycle_number, 1,  var_assign_count) + ")"
+    #
+    #             else:
+    #                 assert False
+    #
+    #         else:
+    #             ret = ret + "(" + self.children[0].get_string(cycle_number, 1,  var_assign_count) + " " + key + " " + \
+    #                   self.children[1].get_string(cycle_number, 1,  var_assign_count) + ")"
+    #
+    #         if append_flag:
+    #             ret = ret + " != 0"
+    #
+    #         return ret
+    #
+    #     elif len(self.children) == 1:
+    #
+    #         if key == "CCAST":
+    #             if "\n" in self.children[0].key:
+    #                 temp = self.children[0].key[:-1]
+    #                 a, b = temp.split("h")
+    #                 temp = str(int(b, 16))
+    #                 ret = ret + "(" + temp + ")"
+    #                 return ret
+    #
+    #             if self.children[0].key not in var_assign_count:
+    #                 var_assign_count[self.children[0].key] = 0
+    #
+    #             ret = ret + "(" + self.children[0].key + "_" + str(cycle_number) + "_" + str(var_assign_count[self.children[0].key]) + ")"
+    #
+    #             if append_flag:
+    #                 ret = ret + " != 0"
+    #             return ret
+    #
+    #         else:
+    #             ret = ret + "(" + key + "(" + self.children[0].get_string(cycle_number, 1) + "))"
+    #             if append_flag:
+    #                 ret = ret + " != 0"
+    #             return ret
+    #
+    #     elif len(self.children) == 0:
+    #         if "\n" in key:
+    #             key = key[:-1]
+    #             a, b = key.split("h")
+    #             key = str(int(b, 16))
+    #
+    #             return key
+    #
+    #         if append_flag:
+    #             if key not in var_assign_count:
+    #                 var_assign_count[key] = 0
+    #                 return key + "_" + str(cycle_number) + "_" + str(var_assign_count[key]) + " != 0"
+    #
+    #             else:
+    #                 return key + "_" + str(cycle_number) + "_" + str(var_assign_count[key]) + " != 0"
+    #
+    #         else:
+    #             if key not in var_assign_count:
+    #                 var_assign_count[key] = 0
+    #                 return key + "_" + str(cycle_number) + "_" + str(var_assign_count[key])
+    #
+    #             else:
+    #                 return key + "_" + str(cycle_number) + "_" + str(var_assign_count[key])
+    #
+    #     else:
+    #         assert False
+    #
+    # def get_predicate(self):
+    #     return
+    #
 
 class control_flow_tree:
     " models if then else control flow "

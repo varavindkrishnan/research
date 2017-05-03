@@ -1,5 +1,5 @@
 from cfg import initialize_ckt_data
-from generate_ip_vector import write_vector_to_file, generate_random_ip_vector, run_sim, read_coverage_pt_toggles
+from generate_ip_vector import write_vector_to_file, generate_random_ip_vector, run_sim, read_coverage_pt_toggles, write_new_inputs
 from parse_tree import get_second_level, get_third_level, get_assign_tree, indent_level, get_last_level, get_token, get_width, get_var_type
 from scan_file import get_operator, coverage_nu
 from tree import control_flow_tree, swap_operator
@@ -88,27 +88,41 @@ nodeid_node_mapping = {}
 for node in node_a[:2]:
     node.get_nodeid_node_map(nodeid_node_mapping)
 
+for keys in nodeid_node_mapping:
+    print("Iam :", keys, " and my opposite is", nodeid_node_mapping[keys].opposite_id)
 #
 # print("Constraints for node")
 #
 # print(len(constraint_sequence))
 # for lines in constraint_sequence:
 #     print(lines)
-cycles = 100
+cycles = 50
 
-vector = generate_random_ip_vector(variables_width, inputs)
+print("\n\n\n\n\n\n")
+print("Completed CGF and AST parsing")
+print("Starting concolic simulation")
+print("\n\n\n\n\n\n")
+
+vector = generate_random_ip_vector(variables_width, inputs, cycles)
 write_vector_to_file(vector, variables_width, inputs)
 run_sim()
 s = Solver()
+ctx = main_ctx()
 coverage_sequence = read_coverage_pt_toggles(cycles, a)
+print("Coverage Sequence : ", coverage_sequence)
 constraint_sequence, var_assign_count_cycle = constraints_from_coverage(coverage_sequence, b, variables, inputs, outputs)
-print(len(constraint_sequence))
-for lines in constraint_sequence:
-    print(lines)
+# print(len(constraint_sequence))
+# for lines in constraint_sequence:
+#    print(lines)
 
-add_variables_to_solver(var_assign_count_cycle, variables, variables_width, constraint_sequence)
-add_constraints_to_solver(constraint_sequence)
-solve_now()
+result = add_variables_to_solver(var_assign_count_cycle, variables, variables_width, constraint_sequence, s, inputs)
+write_new_inputs(result, variables_width)
+run_sim()
+coverage_sequence = read_coverage_pt_toggles(cycles, a)
+print("Coverage Sequence : ", coverage_sequence)
+# add_constraints_to_solver(constraint_sequence)
+# solution = solve_now(s)
+
 # invert_constraints(constraint_sequence)
 # if analyze_constraints(constraint_sequence):
 #     add_variables_to_solver(var_assign_count_cycle, variables, variables_width)

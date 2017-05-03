@@ -1,7 +1,6 @@
 from random import randrange
 from subprocess import call
-from known_signals import resets_and_clocks, resets, clocks
-
+from known_signals import *
 values = []
 
 
@@ -30,7 +29,7 @@ def write_vector_to_file(values, variables_width, inputs):
         if keys not in clocks:
             total_width += variables_width[keys]
 
-    print("Total width is : ", total_width)
+    # print("Total width is : ", total_width)
     f.write(str(total_width) + "\n")
 
     for i in range(len(values)):
@@ -102,3 +101,41 @@ def read_coverage_pt_toggles(cycles, leaves_dict):
 def run_sim():
     call(["./bench/get_sim_trace.o", "-libpath", "./bench/b11.so"])
 
+
+def write_new_inputs(values, variables_width):
+    inputs = input_order[:]
+    f = open("./bench/lev_vec.vec", 'w')
+    total_width = 0
+    for keys in inputs:
+        if keys not in clocks:
+            total_width += variables_width[keys]
+
+    # print("Total width is : ", total_width)
+    f.write(str(total_width) + "\n")
+
+    for i in range(len(values)):
+        line = ""
+        for var in inputs:
+            if var not in clocks:
+                string = ""
+                temp = values[i][var]
+                width = variables_width[var]
+                while temp > 0:
+                    if temp % 2 == 1:
+                        string = "1" + string
+
+                    else:
+                        string = "0" + string
+
+                    temp /= 2
+
+                while len(string) < width:
+                    string = "0" + string
+
+                line = line + string
+
+        line += "\n"
+        f.write(line)
+
+    f.write("END")
+    return

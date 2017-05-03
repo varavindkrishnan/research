@@ -138,7 +138,7 @@ def get_assign_tree(i, lines):
         k = get_second_level(i + 1, lines)
         right_child = get_child(i + 1, lines)
         left_child = get_child(k, lines)
-        if this_operator == "SUB" or this_operator == "SHIFTR" or this_operator == "SHIFTL":
+        if this_operator == "SUB" or this_operator == "SHIFTR" or this_operator == "SHIFTL" or this_operator == "LT"or this_operator == "LTE" or this_operator == "GT" or this_operator == "GTE":
             node = assign_tree(this_operator, [right_child, left_child])
 
         else:
