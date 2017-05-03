@@ -48,6 +48,40 @@ class assign_tree:
         else:
             assert False
 
+    def variables(self, variables, curr_list = None):
+        if curr_list is None:
+            curr_list = []
+
+        if self.key in variables:
+            curr_list.append(self.key)
+
+        for child in self.children:
+            child.variables(variables, curr_list)
+
+        return curr_list
+
+    def is_const(self, variables):
+
+        if len(self.children) == 0:
+            if (self.key not in operators) and (self.key not in variables):
+                return True
+
+            elif self.key in variables:
+                return False
+
+            else:
+                assert False
+
+        elif len(self.children) == 1:
+            return self.children[0].is_const()
+
+        else:
+            if self.key in assigns:
+                return self.children[1].is_const()
+
+            else:
+                return self.children[0].is_const() and self.children[1].is_const()
+
     def is_bool(self):
 
         if self.key in comparators:

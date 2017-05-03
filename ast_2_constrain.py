@@ -145,8 +145,50 @@ def solve_now(s):
         return s.model()
 
 
-def analyze_constraints(constraint_stack):
-    return
+def analyze_constraints(constraint_stack, coverage_sequence, nodeid_node_mapping, variables):
+    # If returns true, can mutate, if returns false, means conflict
+    # mutated coverage sequence, includes all branches, not just leaves
+    # get the trace
+    # compare var assignment in new predicate to the assignment in previous cycle
+    last_node = coverage_sequence[-1][-1]
+    last_cycle = coverage_sequence[-1][:-1]
+    last_but_one_cycle = coverage_sequence[-2][:]
+    this_predicate = nodeid_node_mapping[last_node].predicate
+    var_list = this_predicate.variables(variables)
+
+    is_var_static = {}
+    for e in var_list:
+        is_var_static[e] = True
+
+    # Analyze this cycle
+    length = len(last_cycle)
+    for i in range(length):
+        assigns_in_this_node = nodeid_node_mapping[last_cycle[length - 1 - i]].assigns
+        for assign in assigns_in_this_node:
+            flag = True
+            for elements in var_list:
+                if (assign.children[0].key in var_list) and not (assign.children[0].key.is_const(variables)):
+                    is_var_static[element] = False
+
+    for e in var_list:
+        if not(is_var_static[e]):
+            return True
+
+    # Analyze previous cycle
+    length = len(last_but_one_cycle)
+    for i in range(length):
+        assigns_in_this_node = nodeid_node_mapping[last_but_one_cycle[length - 1 - i]].assigns
+        for assign in assigns_in_this_node:
+            flag = True
+            for elements in var_list:
+                if (assign.children[0].key in var_list) and not (assign.children[0].key.is_const(variables)):
+                    is_var_static[element] = False
+
+    for e in var_list:
+        if not(is_var_static[e]):
+            return True
+
+    return False
 
 
 def invert_constraints(constraints_stack):
