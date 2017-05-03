@@ -13,9 +13,9 @@ def get_var_type(line):
 
 
 def get_width(line):
-    print(line)
+    # print(line)
     a, b = line.split("(")
-    print(b)
+    # print(b)
     a, b = b.split(")")
     return int(a[3:])
 

@@ -4,6 +4,28 @@ from known_signals import *
 values = []
 
 
+def vector_resize(values, cycles, inputs, variables_width):
+    start_len = len(values)
+    while len(values) < cycles:
+        values.append({})
+
+
+    for i in range(start_len, cycles):
+        for var in inputs:
+            this_width = variables_width[var]
+            values[i][var] = randrange(0, 2**this_width)
+            if var in resets:
+
+                # if i == 0 or i == cycles - 1:
+                if i == 0:
+                    values[i][var] = 2**this_width - 1
+
+                else:
+                    values[i][var] = 0
+
+    return
+
+
 def generate_random_ip_vector(variables_width, inputs, cycles = 100):
     for i in range(cycles):
         values.append({})

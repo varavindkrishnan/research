@@ -48,7 +48,7 @@ int main (int argc, char **argv, char **env){
 
     read_in_parameters paras;
 	paras.parse_parameters(argc, argv);
-    cout << "PARSING PARAMS" << endl;
+    //cout << "PARSING PARAMS" << endl;
     paras.parse_parameters(argc, argv);
 
     if (0 && argc && argv && env) {} // Prevent unused variable warnings
@@ -56,9 +56,9 @@ int main (int argc, char **argv, char **env){
 	VerilatedCircuit* top;
     top = DynamicCircuitLoader::createCircuit(paras.libpath);
 
-	cout << "Completed loading circuit \n";
+	//cout << "Completed loading circuit \n";
     top->sim_init();
-	cout << "Circuit instantiated \n";
+	//cout << "Circuit instantiated \n";
 
 
 	long int c,compare,size, i,j,k;

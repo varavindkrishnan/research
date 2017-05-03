@@ -53,7 +53,8 @@ class assign_tree:
             curr_list = []
 
         if self.key in variables:
-            curr_list.append(self.key)
+            if self.key not in curr_list:
+                curr_list.append(self.key)
 
         for child in self.children:
             child.variables(variables, curr_list)
@@ -61,7 +62,6 @@ class assign_tree:
         return curr_list
 
     def is_const(self, variables):
-
         if len(self.children) == 0:
             if (self.key not in operators) and (self.key not in variables):
                 return True
@@ -73,14 +73,14 @@ class assign_tree:
                 assert False
 
         elif len(self.children) == 1:
-            return self.children[0].is_const()
+            return self.children[0].is_const(variables)
 
         else:
             if self.key in assigns:
-                return self.children[1].is_const()
+                return self.children[1].is_const(variables)
 
             else:
-                return self.children[0].is_const() and self.children[1].is_const()
+                return self.children[0].is_const(variables) and self.children[1].is_const(variables)
 
     def is_bool(self):
 

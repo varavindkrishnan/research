@@ -180,7 +180,7 @@ def initialize_ckt_data(file_name = "b11_Vtop_990_final.tree"):
                 variables_width[variables[-1]] = (get_width(lines[i]))
                 var_type = get_var_type(lines[i])
 
-                print(var_type, " ", var_type == "INPUT")
+                # print(var_type, " ", var_type == "INPUT")
                 if var_type == "INPUT":
                     inputs.append(variables[-1])
 
@@ -201,6 +201,6 @@ def initialize_ckt_data(file_name = "b11_Vtop_990_final.tree"):
         else:
             i += 1
 
-    return node_a, variables, variables_width, inputs, outputs, num_cov_pts
+    return node_a, variables, variables_width, inputs, outputs, num_cov_pts, last_number
 
 

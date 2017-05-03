@@ -113,11 +113,13 @@ def add_variables_to_solver(var_assign_count_cycle, variables, variables_width, 
             # print command
             exec command
 
-    print s.check()
-    if "Abc" == "unsat":
-        return None
+
+    if s.check() == unsat:
+        print("UNSAT")
+        return "unsat"
 
     else:
+        print("SAT")
         new_values = []
         # print(s.model())
         solution = s.model()
@@ -137,38 +139,47 @@ def add_variables_to_solver(var_assign_count_cycle, variables, variables_width, 
 
 def solve_now(s):
     status = s.check()
-    if status == "unsat":
+    if status == unsat:
+        print("UNSAT")
         return None
 
     else:
-        print(s.model())
+
         return s.model()
 
 
-def analyze_constraints(constraint_stack, coverage_sequence, nodeid_node_mapping, variables):
+def analyze_constraints(coverage_sequence, nodeid_node_mapping, variables, inputs):
     # If returns true, can mutate, if returns false, means conflict
     # mutated coverage sequence, includes all branches, not just leaves
     # get the trace
     # compare var assignment in new predicate to the assignment in previous cycle
+    return True
+    if len(coverage_sequence) < 2:
+        return True
+
     last_node = coverage_sequence[-1][-1]
     last_cycle = coverage_sequence[-1][:-1]
     last_but_one_cycle = coverage_sequence[-2][:]
     this_predicate = nodeid_node_mapping[last_node].predicate
     var_list = this_predicate.variables(variables)
-
+    # print("I/p Coverage Sequence : ", coverage_sequence)
+    # print("Variables to analyze : ", var_list)
     is_var_static = {}
     for e in var_list:
         is_var_static[e] = True
+        if e in inputs:
+            return True
+
 
     # Analyze this cycle
     length = len(last_cycle)
     for i in range(length):
-        assigns_in_this_node = nodeid_node_mapping[last_cycle[length - 1 - i]].assigns
+        assigns_in_this_node = nodeid_node_mapping[last_cycle[length - 1 - i]].key
         for assign in assigns_in_this_node:
-            flag = True
+            # print(assign)
             for elements in var_list:
-                if (assign.children[0].key in var_list) and not (assign.children[0].key.is_const(variables)):
-                    is_var_static[element] = False
+                if (assign.children[0].key in var_list) and not (assign.is_const(variables)):
+                    is_var_static[elements] = False
 
     for e in var_list:
         if not(is_var_static[e]):
@@ -177,12 +188,15 @@ def analyze_constraints(constraint_stack, coverage_sequence, nodeid_node_mapping
     # Analyze previous cycle
     length = len(last_but_one_cycle)
     for i in range(length):
-        assigns_in_this_node = nodeid_node_mapping[last_but_one_cycle[length - 1 - i]].assigns
+        assigns_in_this_node = nodeid_node_mapping[last_but_one_cycle[length - 1 - i]].key
         for assign in assigns_in_this_node:
-            flag = True
+            # print(assign)
             for elements in var_list:
-                if (assign.children[0].key in var_list) and not (assign.children[0].key.is_const(variables)):
-                    is_var_static[element] = False
+                # print(assign.children[0].key in var_list)
+                # print(assign.is_const(variables))
+                if (assign.children[0].key in var_list) and not (assign.is_const(variables)):
+                    # print("Making it not a constant")
+                    is_var_static[elements] = False
 
     for e in var_list:
         if not(is_var_static[e]):

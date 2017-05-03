@@ -1,5 +1,6 @@
 from tree import *
 from known_signals import relevant_ids
+from ast_2_constrain import analyze_constraints
 
 leaf_predicate ={}
 leaf_covid = {}
@@ -79,9 +80,9 @@ def constraints_from_coverage(list_cov_pts, predicate_of_leaves, variables, inpu
         for nodes in cycles:
             if nodes not in leaf_covid:
                 print("This node ", nodes, " is not a leaf node")
-                assert False
+                # assert False
 
-            for predicates in predicate_of_leaves[nodes]:
+            for predicates in node_predicate[nodes]:
                 constraints[-1].append(predicates.get_string(cycle_number, 0, var_assign_count))
 
         cycle_number += 1
@@ -90,25 +91,41 @@ def constraints_from_coverage(list_cov_pts, predicate_of_leaves, variables, inpu
     return constraints, var_assign_count_cycle
 
 
-def build_incremental_constraints(constraints, list, variables, inputs, outputs, cycle_number, curr_id, var_assign_count_cycle):
+def build_incremental_constraints(constraints, cov_id_list, variables, inputs, outputs, cycle_number, curr_id, var_assign_count_cycle):
+    # print("Building on top of this : ")
+    # for lines in constraints:
+    #     print lines
+
+    # print("Cycle number : ", cycle_number)
+    # print(len(cov_id_list), " : ", (cov_id_list))
+    # print(len(constraints))
+    # print(len(var_assign_count_cycle))
+
     initial_list = []
     assert cycle_number > 0
 
-    for vars in variables:
-        if (vars not in inputs) and (vars not in outputs):
-            line = ""
-            if vars in var_assign_count_cycle[cycle_number - 1]:
-                temp = str(var_assign_count_cycle[cycle_number - 1][vars])
+    if cycle_number > 0:
+        for vars in variables:
+            if (vars not in inputs) and (vars not in outputs):
+                line = ""
+                if vars in var_assign_count_cycle[cycle_number - 1]:
+                    temp = str(var_assign_count_cycle[cycle_number - 1][vars])
 
-            else:
-                temp = "0"
-            line += vars + "_" + str(cycle_number) + "_0 == " + vars + "_" + str(cycle_number - 1) + "_" + temp
-            initial_list.append(line)
+                else:
+                    temp = "0"
+                line += vars + "_" + str(cycle_number) + "_0 == " + vars + "_" + str(cycle_number - 1) + "_" + temp
+                initial_list.append(line)
 
     constraints.append(initial_list)
     var_assign_count = {}
+    # cov_id_list.append([])
     for predicates in node_predicate[curr_id]:
         constraints[-1].append(predicates.get_string(cycle_number, 0, var_assign_count))
+
+    # for index in node_covid[curr_id]:
+    #     cov_id_list[-1].append(index)
+
+    var_assign_count_cycle.append(var_assign_count)
 
     return constraints
 
@@ -137,6 +154,18 @@ def get_complete_trace_leaf(list_leaf_nodes):
 
 
 def check_if_should_cover(index, nodeid_node_mapping, coverage_sequence):
+    # print("Checking if should cover index : ", index)
+    # print("Current coverage sequence : ", coverage_sequence)
+    # if index not in relevant_ids:
+    #     if len(nodeid_node_mapping[index].children) == 2:
+    #         id1 = nodeid_node_mapping[index].children[0].cov_id
+    #         id2 = nodeid_node_mapping[index].children[1].cov_id
+    #         return check_if_should_cover(id1, nodeid_node_mapping, coverage_sequence) or check_if_should_cover(id2, nodeid_node_mapping, coverage_sequence)
+    #
+    #     elif len(nodeid_node_mapping[index].children) == 1:
+    #         id1 = nodeid_node_mapping[index].children[0].cov_id
+    #         return check_if_should_cover(id1, nodeid_node_mapping, coverage_sequence)
+
     if coverage_sequence[index] == 0:
         return True
 
@@ -155,13 +184,19 @@ def check_if_should_cover(index, nodeid_node_mapping, coverage_sequence):
 
 def take_next_constraint(list_cov_pts, constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence):
     # This list_cov_pts includes all non leaf nodes in the trace also
-    if len(constraints) == 0:
+    print("Inside take next constrain Coverage trace : ", list_cov_pts)
+    if len(list_cov_pts) == 0:
         print("Empty stack")
         exit()
         return None
-    
-    here_list = list_cov_pts[:]
-    here_constraints = constraints[:]
+
+    here_list = []
+    here_constraints = []
+    for i in range(len(list_cov_pts)):
+        here_list.append(list_cov_pts[i][:])
+
+    for i in range(len(constraints)):
+        here_constraints.append(constraints[i][:])
 
     if len(here_list[-1]) == 0:
         here_list.pop(-1)
@@ -170,20 +205,43 @@ def take_next_constraint(list_cov_pts, constraints, nodeid_node_mapping, var_ass
         return take_next_constraint(here_list, here_constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence)
 
     last_id = here_list[-1].pop(-1)
+    # here_list.pop(-1)
     here_constraints.pop(-1)
-    var_assign_count_cycle.pop(-1)
-
+    if len(here_list) == 1:
+        print("Reached reset cycle without any valid inversion")
+        return None
     mutate_id = nodeid_node_mapping[last_id].opposite_id
 
-    if (mutate_id is not None) and (mutate_id in relevant_ids):
+    # if (mutate_id is not None) and (mutate_id in relevant_ids):
+    if mutate_id is not None:
+        print("Check if should cover : ", mutate_id, " ", check_if_should_cover(mutate_id, nodeid_node_mapping, coverage_sequence))
         if check_if_should_cover(mutate_id, nodeid_node_mapping, coverage_sequence):
-            constraints = build_incremental_constraints(here_constraints, here_list, variables, inputs, outputs, len(here_list), mutate_id, var_assign_count_cycle)
+
+            analyze_temp = []
+            for elements in here_list:
+                analyze_temp.append(elements[:])
+
+            analyze_temp[-1].append(mutate_id)
+            print("Check if can mutate : ", mutate_id, " ", analyze_constraints(analyze_temp, nodeid_node_mapping, variables, inputs))
+            if analyze_constraints(analyze_temp, nodeid_node_mapping, variables, inputs):
+                var_assign_count_cycle.pop(-1)
+                here_list[-1].append(mutate_id)
+                return build_incremental_constraints(here_constraints, here_list, variables, inputs, outputs, len(here_list) - 1, mutate_id, var_assign_count_cycle), here_list
+
+            else:
+                temp = list_cov_pts[:]
+                temp[-1].pop(-1)
+                return take_next_constraint(temp, constraints, nodeid_node_mapping, var_assign_count_cycle, variables,
+                                            inputs, outputs, coverage_sequence)
 
         else:
-            take_next_constraint(here_list, here_constraints, nodeid_node_mapping, var_assign_count_cycle, variables,
+            temp = list_cov_pts[:]
+            temp[-1].pop(-1)
+            return take_next_constraint(temp, constraints, nodeid_node_mapping, var_assign_count_cycle, variables,
                                  inputs, outputs, coverage_sequence)
 
     else:
-        take_next_constraint(here_list, here_constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence)
+        temp = list_cov_pts[:]
+        temp[-1].pop(-1)
+        return take_next_constraint(temp, constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence)
 
-    return constraints

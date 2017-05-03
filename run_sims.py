@@ -1,5 +1,5 @@
 from cfg import initialize_ckt_data
-from generate_ip_vector import write_vector_to_file, generate_random_ip_vector, run_sim, read_coverage_pt_toggles, write_new_inputs
+from generate_ip_vector import write_vector_to_file, generate_random_ip_vector, run_sim, read_coverage_pt_toggles, write_new_inputs, vector_resize
 from parse_tree import get_second_level, get_third_level, get_assign_tree, indent_level, get_last_level, get_token, get_width, get_var_type
 from scan_file import get_operator, coverage_nu
 from tree import control_flow_tree, swap_operator
@@ -57,7 +57,7 @@ def print_cfg(node_a):
 
 # get_nodeid_node_map, lets us access node by directly using cov id
 
-node_a, variables, variables_width, inputs, outputs, num_cov_pts = initialize_ckt_data()
+node_a, variables, variables_width, inputs, outputs, num_cov_pts, total_pts = initialize_ckt_data()
 
 
 print_cfg(node_a)
@@ -88,8 +88,8 @@ nodeid_node_mapping = {}
 for node in node_a[:2]:
     node.get_nodeid_node_map(nodeid_node_mapping)
 
-for keys in nodeid_node_mapping:
-    print("Iam :", keys, " and my opposite is", nodeid_node_mapping[keys].opposite_id)
+# for keys in nodeid_node_mapping:
+#    print("Iam :", keys, " and my opposite is", nodeid_node_mapping[keys].opposite_id)
 #
 # print("Constraints for node")
 #
@@ -101,10 +101,10 @@ print("\n\n\n\n\n\n")
 print("Completed CGF and AST parsing")
 print("Starting concolic simulation")
 print("\n\n\n\n\n\n")
-cycles = 5
+cycles = 30
 s = Solver()
 ctx = main_ctx()
-current_coverage = [0] * len(relevant_ids)
+current_coverage = [0] * total_pts
 
 vector = generate_random_ip_vector(variables_width, inputs, cycles)
 write_vector_to_file(vector, variables_width, inputs)
@@ -113,44 +113,90 @@ coverage_sequence = read_coverage_pt_toggles(cycles, leaf_covid, current_coverag
 
 complete_flag = True
 for i in current_coverage:
-    if i != 1:
-        complete_flag = Flase
+    if i != 1 and i < len(relevant_ids):
+        complete_flag = False
         break
 
 if complete_flag:
     print("100% coverage")
     exit()
 
-print("Coverage Sequence : ", coverage_sequence)
+print("Coverage ID Sequence : ", coverage_sequence)
 list_cov_pts = get_complete_trace_leaf(coverage_sequence)
 print("Coverage trace : ", list_cov_pts)
 constraint_sequence, var_assign_count_cycle = constraints_from_coverage(coverage_sequence, leaf_predicate, variables, inputs, outputs)
+# print(var_assign_count_cycle)
+# print("Constrain Sequence : ")
+# print(len(constraint_sequence))
+# for lines in constraint_sequence:
+#     print(lines)
 
-print("Constrain Sequence : ")
-print(len(constraint_sequence))
-for lines in constraint_sequence:
-    print(lines)
+new_constraint = constraint_sequence
+
+while True:
+    result = "unsat"
+
+    while result is "unsat":
+        s = Solver()
+        print("")
+        print("")
+        print("")
+        print("Getting new constrain")
+        print("Current Cov point trace : ", list_cov_pts)
+        new_constraint, list_cov_pts = take_next_constraint(list_cov_pts, new_constraint, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, current_coverage)
+        print("New Cov point trace : ", list_cov_pts)
+        # print("Solving new constrain : ", new_constraint)
+        leaf_trace = []
+        for elements in list_cov_pts:
+            leaf_trace.append([elements[-1]])
+        new_constraint,  var_assign_count_cycle = constraints_from_coverage(leaf_trace, leaf_predicate, variables, inputs, outputs)
+        result = add_variables_to_solver(var_assign_count_cycle, variables, variables_width, new_constraint, s, inputs)
+        # print(result)
+
+        # print(var_assign_count_cycle)
+        # print("New Constrain Sequence : ")
+        # print(len(new_constraint))
+        # for lines in new_constraint:
+        #     print(lines)
 
 
-new_constraint = take_next_constraint(list_cov_pts, constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence)
+        #################################################################
+        # result = add_variables_to_solver(var_assign_count_cycle, variables, variables_width, constraint_sequence, s, inputs)
+        # write_new_inputs(result, variables_width)
+        # run_sim()
+        # coverage_sequence = read_coverage_pt_toggles(cycles, leaf_covid, current_coverage)
+        # print("Coverage Sequence : ", coverage_sequence)
+        #
+        #
+        #############################################################################
 
-print("New Constrain Sequence : ")
-print(len(new_constraint))
-for lines in new_constraint:
-    print(lines)
+    if(len(result) < cycles):
+        vector_resize(result, cycles, inputs, variables_width)
+
+    write_new_inputs(result, variables_width)
+    run_sim()
+    coverage_sequence = read_coverage_pt_toggles(cycles, leaf_covid, current_coverage)
+    print("Coverage ID Sequence : ", coverage_sequence)
+    list_cov_pts = get_complete_trace_leaf(coverage_sequence)
+    print("Coverage Trace : ", list_cov_pts)
+    complete_flag = True
+    count = 0
+
+    for i in range(len(current_coverage)):
+        if current_coverage[i] != 1 and i < len(relevant_ids):
+            complete_flag = False
+
+        if current_coverage[i] == 1 and i < len(relevant_ids):
+            count += 1
+
+    print("Total number of covered branches : ", count)
+    if complete_flag:
+        print("100% coverage")
+        exit()
+
+    constraint_sequence, var_assign_count_cycle = constraints_from_coverage(coverage_sequence, leaf_predicate, variables, inputs, outputs)
 
 
-#################################################################
-# result = add_variables_to_solver(var_assign_count_cycle, variables, variables_width, constraint_sequence, s, inputs)
-# write_new_inputs(result, variables_width)
-# run_sim()
-# coverage_sequence = read_coverage_pt_toggles(cycles, leaf_covid, current_coverage)
-# print("Coverage Sequence : ", coverage_sequence)
-#
-#
-##############################################################################
-# add_constraints_to_solver(constraint_sequence)
-# solution = solve_now(s)
 
 # invert_constraints(constraint_sequence)
 # if analyze_constraints(constraint_sequence):

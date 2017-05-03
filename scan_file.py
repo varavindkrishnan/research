@@ -264,7 +264,7 @@ def rewrite(exp):
 # for i in range(len(dependency_m)):
 #     print(i, " ", var_stack[i], " ", dependency_m[i])
 
-for i in range(len(node_list)):
-    print("ID", node_list[i].id, node_list[i].predicate, node_list[i].assigns, node_list[i].parent_id)
+# for i in range(len(node_list)):
+#    print("ID", node_list[i].id, node_list[i].predicate, node_list[i].assigns, node_list[i].parent_id)
 
 

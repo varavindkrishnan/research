@@ -126,5 +126,20 @@
 #     for c in toggles[i]:
 #         print c,
 #     print("")
-from subprocess import call
-call(["./bench/get_sim_trace.o", "-libpath", "./bench/b11.so"])
+# from subprocess import call
+# call(["./bench/get_sim_trace.o", "-libpath", "./bench/b11.so"])
+
+from ast_2_constrain import analyze_constraints
+from cfg import initialize_ckt_data
+
+
+node_a, variables, variables_width, inputs, outputs, num_cov_pts, total_pts = initialize_ckt_data()
+
+nodeid_node_mapping = {}
+for node in node_a[:2]:
+    node.get_nodeid_node_map(nodeid_node_mapping)
+    print(node)
+coverage_sequence = [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 7]]
+# coverage_sequence = [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3]]
+temp = analyze_constraints(coverage_sequence, nodeid_node_mapping, variables, inputs)
+print "Is this exp mutable ? ", temp
