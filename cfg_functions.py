@@ -7,6 +7,7 @@ leaf_covid = {}
 node_predicate = {}
 node_covid = {}
 
+
 def _get_leaves_and_trace(nodes, predicate_list, cov_list):
     # need to add assignment to predicate list or create a new list for predicates
     this_covlist = cov_list[:] + [nodes.cov_id]
@@ -50,6 +51,7 @@ def extract_relevant_constraints(constraint_stack):
 
 
 def constraints_from_coverage(list_cov_pts, predicate_of_leaves, variables, inputs, outputs):
+    # This list containts only leaf nodes, the leaf nodes from each tree accross every cycle
     # from a given list of terminal branches construct the constraint stack
     # how to handle multiple assign and references to variables during the same cycle?
     # keep track of variables assigned in a given flow, if assigned track only the last assignment, if used then use
@@ -123,10 +125,39 @@ def clock_reset_vars(inputs, file_name):
     return safe_inputs
 
 
-def take_next_constraint(list_cov_pts, constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs):
+def get_complete_trace_leaf(list_leaf_nodes):
+    trace = []
+
+    for cycles in list_leaf_nodes:
+        trace.append([])
+        for nodes in cycles:
+            trace[-1] = trace[-1][:] + leaf_covid[nodes][:]
+
+    return trace
+
+
+def check_if_should_cover(index, nodeid_node_mapping, coverage_sequence):
+    if coverage_sequence[index] == 0:
+        return True
+
+    elif len(nodeid_node_mapping[index].children) == 2:
+        id1 = nodeid_node_mapping[index].children[0].cov_id
+        id2 = nodeid_node_mapping[index].children[1].cov_id
+        return check_if_should_cover(id1, nodeid_node_mapping, coverage_sequence) or check_if_should_cover(id2, nodeid_node_mapping, coverage_sequence)
+
+    elif len(nodeid_node_mapping[index].children) == 1:
+        id1 = nodeid_node_mapping[index].children[0].cov_id
+        return check_if_should_cover(id1, nodeid_node_mapping, coverage_sequence)
+
+    else:
+        return False
+
+
+def take_next_constraint(list_cov_pts, constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence):
     # This list_cov_pts includes all non leaf nodes in the trace also
-    if(len(constraints) == 0):
+    if len(constraints) == 0:
         print("Empty stack")
+        exit()
         return None
     
     here_list = list_cov_pts[:]
@@ -136,16 +167,23 @@ def take_next_constraint(list_cov_pts, constraints, nodeid_node_mapping, var_ass
         here_list.pop(-1)
         here_constraints.pop(-1)
         var_assign_count_cycle.pop(-1)
-        return take_next_constraint(here_list, here_constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs)
+        return take_next_constraint(here_list, here_constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence)
 
     last_id = here_list[-1].pop(-1)
-
     here_constraints.pop(-1)
+    var_assign_count_cycle.pop(-1)
 
-    if (nodeid_node_mapping[last_id].opposite_id is not None) and (last_id in relevant_ids):
-        constraints = build_incremental_constraints(constraints, here_list, variables, inputs, outputs, len(here_list), nodeid_node_mapping[last_id].opposite_id, var_assign_count_cycle)
+    mutate_id = nodeid_node_mapping[last_id].opposite_id
+
+    if (mutate_id is not None) and (mutate_id in relevant_ids):
+        if check_if_should_cover(mutate_id, nodeid_node_mapping, coverage_sequence):
+            constraints = build_incremental_constraints(here_constraints, here_list, variables, inputs, outputs, len(here_list), mutate_id, var_assign_count_cycle)
+
+        else:
+            take_next_constraint(here_list, here_constraints, nodeid_node_mapping, var_assign_count_cycle, variables,
+                                 inputs, outputs, coverage_sequence)
 
     else:
-        take_next_constraint(here_list, here_constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs)
+        take_next_constraint(here_list, here_constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence)
 
     return constraints

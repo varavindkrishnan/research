@@ -7,7 +7,7 @@ from operator_types import *
 from cfg_functions import *
 from ast_2_constrain import add_variables_to_solver, solve_now, add_constraints_to_solver, invert_constraints, analyze_constraints
 from z3 import *
-from known_signals import resets_and_clocks
+from known_signals import resets_and_clocks, relevant_ids
 
 def print_node(node):
     if len(node.children) > 0:
@@ -66,10 +66,10 @@ print_cfg(node_a)
 for nodes in node_a:
     print(nodes)
 
-a, b = get_leaves_and_trace(node_a[:2])
+leaf_covid, leaf_predicate = get_leaves_and_trace(node_a[:2])
 
-for keys in a:
-    print(keys, " ", a[keys])
+for keys in leaf_covid:
+    print(keys, " ", leaf_covid[keys])
 print("")
 
 print("Input Vars")
@@ -77,9 +77,9 @@ for elements in inputs:
     print(elements, " : ", variables_width[elements])
 print("")
 
-for keys in b:
+for keys in leaf_predicate:
     print keys, " ",
-    for elements in b[keys]:
+    for elements in leaf_predicate[keys]:
         print(elements.get_string()), ", ",
 
     print(" ")
@@ -96,30 +96,59 @@ for keys in nodeid_node_mapping:
 # print(len(constraint_sequence))
 # for lines in constraint_sequence:
 #     print(lines)
-cycles = 50
 
 print("\n\n\n\n\n\n")
 print("Completed CGF and AST parsing")
 print("Starting concolic simulation")
 print("\n\n\n\n\n\n")
+cycles = 5
+s = Solver()
+ctx = main_ctx()
+current_coverage = [0] * len(relevant_ids)
 
 vector = generate_random_ip_vector(variables_width, inputs, cycles)
 write_vector_to_file(vector, variables_width, inputs)
 run_sim()
-s = Solver()
-ctx = main_ctx()
-coverage_sequence = read_coverage_pt_toggles(cycles, a)
-print("Coverage Sequence : ", coverage_sequence)
-constraint_sequence, var_assign_count_cycle = constraints_from_coverage(coverage_sequence, b, variables, inputs, outputs)
-# print(len(constraint_sequence))
-# for lines in constraint_sequence:
-#    print(lines)
+coverage_sequence = read_coverage_pt_toggles(cycles, leaf_covid, current_coverage)
 
-result = add_variables_to_solver(var_assign_count_cycle, variables, variables_width, constraint_sequence, s, inputs)
-write_new_inputs(result, variables_width)
-run_sim()
-coverage_sequence = read_coverage_pt_toggles(cycles, a)
+complete_flag = True
+for i in current_coverage:
+    if i != 1:
+        complete_flag = Flase
+        break
+
+if complete_flag:
+    print("100% coverage")
+    exit()
+
 print("Coverage Sequence : ", coverage_sequence)
+list_cov_pts = get_complete_trace_leaf(coverage_sequence)
+print("Coverage trace : ", list_cov_pts)
+constraint_sequence, var_assign_count_cycle = constraints_from_coverage(coverage_sequence, leaf_predicate, variables, inputs, outputs)
+
+print("Constrain Sequence : ")
+print(len(constraint_sequence))
+for lines in constraint_sequence:
+    print(lines)
+
+
+new_constraint = take_next_constraint(list_cov_pts, constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence)
+
+print("New Constrain Sequence : ")
+print(len(new_constraint))
+for lines in new_constraint:
+    print(lines)
+
+
+#################################################################
+# result = add_variables_to_solver(var_assign_count_cycle, variables, variables_width, constraint_sequence, s, inputs)
+# write_new_inputs(result, variables_width)
+# run_sim()
+# coverage_sequence = read_coverage_pt_toggles(cycles, leaf_covid, current_coverage)
+# print("Coverage Sequence : ", coverage_sequence)
+#
+#
+##############################################################################
 # add_constraints_to_solver(constraint_sequence)
 # solution = solve_now(s)
 

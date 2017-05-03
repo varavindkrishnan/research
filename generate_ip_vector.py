@@ -13,7 +13,8 @@ def generate_random_ip_vector(variables_width, inputs, cycles = 100):
 
             if var in resets:
 
-                if i == 0 or i == cycles - 1:
+                # if i == 0 or i == cycles - 1:
+                if i == 0:
                     values[i][var] = 2**this_width - 1
 
                 else:
@@ -78,7 +79,7 @@ def write_vector_to_file(values, variables_width, inputs):
     return
 
 
-def read_coverage_pt_toggles(cycles, leaves_dict):
+def read_coverage_pt_toggles(cycles, leaves_dict, current_coverage):
     f = open("./bench/coverage_cycle.trace", 'r')
     lines = f.readlines()
     assert len(lines) == cycles
@@ -90,6 +91,7 @@ def read_coverage_pt_toggles(cycles, leaves_dict):
 
         for q in range(len(toggles)):
             toggles[q] = int(toggles[q])
+            current_coverage[toggles[q]] = 1
 
         for keys in leaves_dict:
             if keys in toggles:
