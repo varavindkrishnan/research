@@ -18,7 +18,7 @@ def get_then(j, lines, predicate):
     # initialize node using above predicate
     assert(indent_level(lines[j])[0] == 2)
     end = get_last_level(j, lines)
-    # print(lines[j])
+    # print("From inside get then : ", lines[j])
     # print("End of this block :", end)
     children = []
     key = []
@@ -65,7 +65,7 @@ def get_otherwise(j, lines, predicate):
     # initialize node using above predicate
     assert (indent_level(lines[j])[0] == 3)
     end = get_last_level(j, lines)
-    # print(lines[j])
+    # print("From inside get otherwise : ", lines[j])
     # print("End of this block :", end)
     children = []
     key = []
@@ -120,6 +120,7 @@ def indent(line):
 
 
 def get_if_then_nodes(i, lines):
+    # print("From inside get if then :", lines[i])
     j = get_second_level(i + 1, lines)
     q = get_last_level(i, lines)
     level = indent(lines[q - 1])

@@ -9,6 +9,12 @@ node_predicate = {}
 node_covid = {}
 
 
+def flush_array_from_cycle(array, cycle):
+    for i in range(cycle, len(array)):
+        for j in range(len(array[i])):
+            array[i][j] = 0
+
+
 def _get_leaves_and_trace(nodes, predicate_list, cov_list):
     # need to add assignment to predicate list or create a new list for predicates
     this_covlist = cov_list[:] + [nodes.cov_id]
@@ -17,16 +23,15 @@ def _get_leaves_and_trace(nodes, predicate_list, cov_list):
     for assigns in nodes.key:
         this_predicatelist = this_predicatelist[:] + [assigns]
 
+    # if len(nodes.children) > 0:
+    # if len(nodes.children) == 0 or len(nodes.children) == 1:
+
     if len(nodes.children) == 0:
         leaf_covid[nodes.cov_id] = this_covlist[:]
         leaf_predicate[nodes.cov_id] = this_predicatelist[:]
-        node_predicate[nodes.cov_id] = this_predicatelist[:]
-        node_covid[nodes.cov_id] = this_covlist[:]
-        return
 
     node_predicate[nodes.cov_id] = this_predicatelist[:]
     node_covid[nodes.cov_id] = this_covlist[:]
-
 
     for children in nodes.children:
         _get_leaves_and_trace(children, this_predicatelist, this_covlist)
@@ -182,9 +187,9 @@ def check_if_should_cover(index, nodeid_node_mapping, coverage_sequence):
         return False
 
 
-def take_next_constraint(list_cov_pts, constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence):
+def take_next_constraint(list_cov_pts, constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence, inversion_attempt):
     # This list_cov_pts includes all non leaf nodes in the trace also
-    print("Inside take next constrain Coverage trace : ", list_cov_pts)
+    # print("Inside take next constrain Coverage trace : ", list_cov_pts)
     if len(list_cov_pts) == 0:
         print("Empty stack")
         exit()
@@ -200,21 +205,26 @@ def take_next_constraint(list_cov_pts, constraints, nodeid_node_mapping, var_ass
 
     if len(here_list[-1]) == 0:
         here_list.pop(-1)
+        # print("Popping due to moving back one cycle")
         here_constraints.pop(-1)
         var_assign_count_cycle.pop(-1)
-        return take_next_constraint(here_list, here_constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence)
+        return take_next_constraint(here_list, here_constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence, inversion_attempt)
 
+    # here_constraints.pop(-1)
     last_id = here_list[-1].pop(-1)
     # here_list.pop(-1)
-    here_constraints.pop(-1)
+
     if len(here_list) == 1:
         print("Reached reset cycle without any valid inversion")
         return None
     mutate_id = nodeid_node_mapping[last_id].opposite_id
 
+    cycle_number = len(list_cov_pts) - 1
+
     # if (mutate_id is not None) and (mutate_id in relevant_ids):
-    if mutate_id is not None:
-        print("Check if should cover : ", mutate_id, " ", check_if_should_cover(mutate_id, nodeid_node_mapping, coverage_sequence))
+    if (mutate_id is not None) and ((mutate_id in relevant_ids) or (last_id in relevant_ids)) and (inversion_attempt[cycle_number][mutate_id] == 0):
+        inversion_attempt[cycle_number][mutate_id] = 1
+        # print("Check if should cover : ", mutate_id, " ", check_if_should_cover(mutate_id, nodeid_node_mapping, coverage_sequence))
         if check_if_should_cover(mutate_id, nodeid_node_mapping, coverage_sequence):
 
             analyze_temp = []
@@ -222,9 +232,15 @@ def take_next_constraint(list_cov_pts, constraints, nodeid_node_mapping, var_ass
                 analyze_temp.append(elements[:])
 
             analyze_temp[-1].append(mutate_id)
-            print("Check if can mutate : ", mutate_id, " ", analyze_constraints(analyze_temp, nodeid_node_mapping, variables, inputs))
+            # print("Check if can mutate to : ", mutate_id, " ", analyze_constraints(analyze_temp, nodeid_node_mapping, variables, inputs))
             if analyze_constraints(analyze_temp, nodeid_node_mapping, variables, inputs):
                 var_assign_count_cycle.pop(-1)
+                # print("\n\n\n")
+                # print("Before popping :")
+                # for lines in here_constraints:
+                #     print(lines)
+                # print("Popping from constrain stack before passing to incremental build.")
+                here_constraints.pop(-1)
                 here_list[-1].append(mutate_id)
                 return build_incremental_constraints(here_constraints, here_list, variables, inputs, outputs, len(here_list) - 1, mutate_id, var_assign_count_cycle), here_list
 
@@ -232,16 +248,16 @@ def take_next_constraint(list_cov_pts, constraints, nodeid_node_mapping, var_ass
                 temp = list_cov_pts[:]
                 temp[-1].pop(-1)
                 return take_next_constraint(temp, constraints, nodeid_node_mapping, var_assign_count_cycle, variables,
-                                            inputs, outputs, coverage_sequence)
+                                            inputs, outputs, coverage_sequence, inversion_attempt)
 
         else:
             temp = list_cov_pts[:]
             temp[-1].pop(-1)
             return take_next_constraint(temp, constraints, nodeid_node_mapping, var_assign_count_cycle, variables,
-                                 inputs, outputs, coverage_sequence)
+                                 inputs, outputs, coverage_sequence, inversion_attempt)
 
     else:
         temp = list_cov_pts[:]
         temp[-1].pop(-1)
-        return take_next_constraint(temp, constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence)
+        return take_next_constraint(temp, constraints, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, coverage_sequence, inversion_attempt)
 

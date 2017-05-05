@@ -122,8 +122,10 @@ def read_coverage_pt_toggles(cycles, leaves_dict, current_coverage):
     return leaves_cycle
 
 
-def run_sim():
-    call(["./bench/get_sim_trace.o", "-libpath", "./bench/b11.so"])
+def run_sim(ckt_name):
+    arg = "./bench/" + ckt_name + ".so"
+    # print(arg)
+    call(["./bench/get_sim_trace.o", "-libpath", arg])
 
 
 def write_new_inputs(values, variables_width):

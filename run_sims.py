@@ -5,7 +5,7 @@ from scan_file import get_operator, coverage_nu
 from tree import control_flow_tree, swap_operator
 from operator_types import *
 from cfg_functions import *
-from ast_2_constrain import add_variables_to_solver, solve_now, add_constraints_to_solver, invert_constraints, analyze_constraints
+from ast_2_constrain import add_variables_to_solver, solve_now, add_constraints_to_solver, analyze_constraints
 from z3 import *
 from known_signals import resets_and_clocks, relevant_ids
 
@@ -57,7 +57,12 @@ def print_cfg(node_a):
 
 # get_nodeid_node_map, lets us access node by directly using cov id
 
-node_a, variables, variables_width, inputs, outputs, num_cov_pts, total_pts = initialize_ckt_data()
+ckt_name = "b10"
+
+parse_tree_file_name = ckt_name + "_Vtop_990_final.tree"
+
+
+node_a, variables, variables_width, inputs, outputs, num_cov_pts, total_pts = initialize_ckt_data(parse_tree_file_name)
 
 
 print_cfg(node_a)
@@ -105,10 +110,14 @@ cycles = 30
 s = Solver()
 ctx = main_ctx()
 current_coverage = [0] * total_pts
+inversion_attempt = []
+
+for i in range(cycles):
+    inversion_attempt.append([0]*total_pts)
 
 vector = generate_random_ip_vector(variables_width, inputs, cycles)
 write_vector_to_file(vector, variables_width, inputs)
-run_sim()
+run_sim(ckt_name)
 coverage_sequence = read_coverage_pt_toggles(cycles, leaf_covid, current_coverage)
 
 complete_flag = True
@@ -138,18 +147,41 @@ while True:
 
     while result is "unsat":
         s = Solver()
-        print("")
-        print("")
-        print("")
-        print("Getting new constrain")
-        print("Current Cov point trace : ", list_cov_pts)
-        new_constraint, list_cov_pts = take_next_constraint(list_cov_pts, new_constraint, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, current_coverage)
-        print("New Cov point trace : ", list_cov_pts)
+        # print("")
+        # print("")
+        # print("")
+        # print("Getting new constrain")
+        # print("Current Cov point trace : ", list_cov_pts)
+        a = take_next_constraint(list_cov_pts, new_constraint, nodeid_node_mapping, var_assign_count_cycle, variables, inputs, outputs, current_coverage, inversion_attempt)
+
+        if a is None:
+            print("No new constrain to invert exiting")
+            exit()
+
+        else:
+            new_constraint = a[0]
+            list_cov_pts = a[1]
+        # print("New Cov point trace : ", list_cov_pts)
         # print("Solving new constrain : ", new_constraint)
+
         leaf_trace = []
         for elements in list_cov_pts:
             leaf_trace.append([elements[-1]])
-        new_constraint,  var_assign_count_cycle = constraints_from_coverage(leaf_trace, leaf_predicate, variables, inputs, outputs)
+
+        # recreate_new_constraint,  var_assign_count_cycle = constraints_from_coverage(leaf_trace, leaf_predicate, variables, inputs, outputs)
+        #
+        # if recreate_new_constraint != new_constraint:
+        #     print("Different stuff")
+        #     print("\n From constrain from coverage")
+        #     for lines in recreate_new_constraint:
+        #         print lines
+        #
+        #     print("\n From incremental coverage")
+        #     for lines in new_constraint:
+        #         print lines
+        #
+        # assert recreate_new_constraint == new_constraint
+
         result = add_variables_to_solver(var_assign_count_cycle, variables, variables_width, new_constraint, s, inputs)
         # print(result)
 
@@ -174,11 +206,11 @@ while True:
         vector_resize(result, cycles, inputs, variables_width)
 
     write_new_inputs(result, variables_width)
-    run_sim()
+    run_sim(ckt_name)
     coverage_sequence = read_coverage_pt_toggles(cycles, leaf_covid, current_coverage)
-    print("Coverage ID Sequence : ", coverage_sequence)
+    # print("Coverage ID Sequence : ", coverage_sequence)
     list_cov_pts = get_complete_trace_leaf(coverage_sequence)
-    print("Coverage Trace : ", list_cov_pts)
+    # print("Coverage Trace : ", list_cov_pts)
     complete_flag = True
     count = 0
 
@@ -195,6 +227,7 @@ while True:
         exit()
 
     constraint_sequence, var_assign_count_cycle = constraints_from_coverage(coverage_sequence, leaf_predicate, variables, inputs, outputs)
+    new_constraint = constraint_sequence
 
 
 

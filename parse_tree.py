@@ -68,6 +68,7 @@ def indent(line):
 
 
 def indent_level(line):
+    # print("From inside indent level :", line)
     split = line.split(" ")
     temp = []
     for element in split:
@@ -85,6 +86,7 @@ def indent_level(line):
 
 
 def get_second_level(i, lines):
+    # print("From inside second level ")
     num, level = indent_level(lines[i])
     this_level = level
     assert(num == 1)
@@ -96,10 +98,12 @@ def get_second_level(i, lines):
 
 
 def get_third_level(i, lines):
+    # print("From inside third level ")
     num, level = indent_level(lines[i])
     this_level = level
     assert(num == 1)
-    while num != 3 or level != this_level:
+    while num != 3 or level > this_level:
+        # print(lines[i])
         i += 1
         num, level = indent_level(lines[i])
 
@@ -107,6 +111,7 @@ def get_third_level(i, lines):
 
 
 def get_last_level(j, lines):
+    # print("From inside last level ")
     level = indent(lines[j])
     reference_size = len(level)
     j += 1

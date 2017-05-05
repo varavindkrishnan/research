@@ -1,206 +1,2306 @@
 reset_0_0 != 0
-('inside :', 32)
-('inside :', 35)
+('inside :', 31)
+('inside :', 103)
 ((v__DOT__stato_0_0) & 4) != 0
-('inside :', 35)
-('inside :', 34)
-((v__DOT__stato_0_0) & 2) != 0
-('inside :', 34)
-('inside :', 33)
+('inside :', 103)
+('inside :', 102)
+('inside :', 32)
 ((v__DOT__stato_0_0) & 1) != 0
+('inside :', 32)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 102)
+('inside :', 101)
+('inside :', 28)
+((v__DOT__voto3_0_0) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (v__DOT__voto0_0_0)))) != 0
+('inside :', 28)
+('inside :', 26)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 26)
+('inside :', 66)
+('inside :', 61)
+('inside :', 51)
+('inside :', 24)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 24)
+('inside :', 22)
+rts_0_0 != 0
+('inside :', 22)
+('inside :', 41)
+('inside :', 20)
+((~((rts_0_0))) & 1) != 0
+('inside :', 20)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 36)
+('inside :', 34)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 34)
+('inside :', 13)
 ('inside :', 33)
-('inside :', 30)
-((v__DOT__cont1_0_0) & 256) != 0
-('inside :', 30)
-(((v__DOT__cont1_0_0) & 256) == 0)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 33)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 36)
+('inside :', 35)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 35)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((~((rts_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 41)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 40)
+('inside :', 38)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 38)
+('inside :', 13)
+('inside :', 37)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 37)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 40)
+('inside :', 39)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 39)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(rts_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 51)
+('inside :', 22)
+rts_0_0 != 0
+('inside :', 22)
+('inside :', 50)
+('inside :', 20)
+((~((rts_0_0))) & 1) != 0
+('inside :', 20)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 45)
+('inside :', 43)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 43)
+('inside :', 13)
+('inside :', 42)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 42)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 45)
+('inside :', 44)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 44)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((~((rts_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 50)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 49)
+('inside :', 47)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 47)
+('inside :', 13)
+('inside :', 46)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 46)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 49)
+('inside :', 48)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 48)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(rts_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 61)
+('inside :', 60)
+('inside :', 20)
+((~((rts_0_0))) & 1) != 0
+('inside :', 20)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 55)
+('inside :', 53)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 53)
+('inside :', 13)
+('inside :', 52)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 52)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 55)
+('inside :', 54)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 54)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((~((rts_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 60)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 59)
+('inside :', 57)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 57)
+('inside :', 13)
+('inside :', 56)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 56)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 59)
+('inside :', 58)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 58)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+((v__DOT__stato_0_0) & 4) != 0
+('inside :', 66)
+('inside :', 65)
+('inside :', 63)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 63)
+('inside :', 13)
+('inside :', 62)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 62)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 65)
+('inside :', 64)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 64)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(((v__DOT__stato_0_0) & 4) == 0)
+(((~((rtr_0_0))) & 1) == 0)
+(((v__DOT__voto3_0_0) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (v__DOT__voto0_0_0)))) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 101)
+('inside :', 26)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 26)
+('inside :', 100)
+('inside :', 95)
+('inside :', 85)
+('inside :', 24)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 24)
+('inside :', 22)
+rts_0_0 != 0
+('inside :', 22)
+('inside :', 75)
+('inside :', 20)
+((~((rts_0_0))) & 1) != 0
+('inside :', 20)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 70)
+('inside :', 68)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 68)
+('inside :', 13)
+('inside :', 67)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 67)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 70)
+('inside :', 69)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 69)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((~((rts_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 75)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 74)
+('inside :', 72)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 72)
+('inside :', 13)
+('inside :', 71)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 71)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 74)
+('inside :', 73)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 73)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(rts_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 85)
+('inside :', 22)
+rts_0_0 != 0
+('inside :', 22)
+('inside :', 84)
+('inside :', 20)
+((~((rts_0_0))) & 1) != 0
+('inside :', 20)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 79)
+('inside :', 77)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 77)
+('inside :', 13)
+('inside :', 76)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 76)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 79)
+('inside :', 78)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 78)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((~((rts_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 84)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 83)
+('inside :', 81)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 81)
+('inside :', 13)
+('inside :', 80)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 80)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 83)
+('inside :', 82)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 82)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(rts_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 95)
+('inside :', 94)
+('inside :', 20)
+((~((rts_0_0))) & 1) != 0
+('inside :', 20)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 89)
+('inside :', 87)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 87)
+('inside :', 13)
+('inside :', 86)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 86)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 89)
+('inside :', 88)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 88)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((~((rts_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 94)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 93)
+('inside :', 91)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 91)
+('inside :', 13)
+('inside :', 90)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 90)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 93)
+('inside :', 92)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 92)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+((v__DOT__stato_0_0) & 4) != 0
+('inside :', 100)
+('inside :', 99)
+('inside :', 97)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 97)
+('inside :', 13)
+('inside :', 96)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 96)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 99)
+('inside :', 98)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 98)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(((v__DOT__stato_0_0) & 4) == 0)
+(((~((rtr_0_0))) & 1) == 0)
 (((v__DOT__stato_0_0) & 1) == 0)
 (((v__DOT__stato_0_0) & 2) == 0)
 (((v__DOT__stato_0_0) & 4) == 0)
 ((v__DOT__stato_0_0) & 8) != 0
-('inside :', 32)
-('inside :', 45)
-('inside :', 40)
-('inside :', 38)
-('inside :', 27)
-((((v__DOT__r_in_0_0) >> 2) & 3) == 0)
-('inside :', 27)
-('inside :', 37)
-((((v__DOT__r_in_0_0) >> 2) & 3) == 1)
-('inside :', 37)
-('inside :', 36)
-((((v__DOT__r_in_0_0) >> 2) & 3) == 2)
-('inside :', 36)
-((((v__DOT__r_in_0_0) >> 2) & 3) != 2)
-((((v__DOT__r_in_0_0) >> 2) & 3) != 1)
-((((v__DOT__r_in_0_0) >> 2) & 3) != 0)
+('inside :', 31)
+('inside :', 137)
+('inside :', 132)
+('inside :', 122)
+('inside :', 24)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 24)
+('inside :', 22)
+rts_0_0 != 0
+('inside :', 22)
+('inside :', 112)
+('inside :', 20)
+((~((rts_0_0))) & 1) != 0
+('inside :', 20)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 107)
+('inside :', 105)
 ((v__DOT__stato_0_0) & 1) != 0
-('inside :', 38)
-('inside :', 22)
-( (63 < (v__DOT__cont1_0_0)) != 0 )
-('inside :', 22)
-(63 >= (v__DOT__cont1_0_0))
+('inside :', 105)
+('inside :', 13)
+('inside :', 104)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 104)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
 (((v__DOT__stato_0_0) & 1) == 0)
 ((v__DOT__stato_0_0) & 2) != 0
-('inside :', 40)
-('inside :', 39)
-('inside :', 19)
-( (26 < (v__DOT__cont1_0_0)) != 0 )
-('inside :', 19)
-(26 >= (v__DOT__cont1_0_0))
+('inside :', 107)
+('inside :', 106)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
 ((v__DOT__stato_0_0) & 1) != 0
-('inside :', 39)
-('inside :', 16)
-((v__DOT__r_in_0_0) & 2) != 0
-('inside :', 16)
-(((v__DOT__r_in_0_0) & 2) == 0)
+('inside :', 106)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((~((rts_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 112)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 111)
+('inside :', 109)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 109)
+('inside :', 13)
+('inside :', 108)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 108)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 111)
+('inside :', 110)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 110)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(rts_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 122)
+('inside :', 22)
+rts_0_0 != 0
+('inside :', 22)
+('inside :', 121)
+('inside :', 20)
+((~((rts_0_0))) & 1) != 0
+('inside :', 20)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 116)
+('inside :', 114)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 114)
+('inside :', 13)
+('inside :', 113)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 113)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 116)
+('inside :', 115)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 115)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((~((rts_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 121)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 120)
+('inside :', 118)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 118)
+('inside :', 13)
+('inside :', 117)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 117)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 120)
+('inside :', 119)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 119)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(rts_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 132)
+('inside :', 131)
+('inside :', 20)
+((~((rts_0_0))) & 1) != 0
+('inside :', 20)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 126)
+('inside :', 124)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 124)
+('inside :', 13)
+('inside :', 123)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 123)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 126)
+('inside :', 125)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 125)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
+(((~((rts_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 131)
+('inside :', 18)
+('inside :', 17)
+((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0
+('inside :', 17)
+(((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0)
+rtr_0_0 != 0
+('inside :', 18)
+('inside :', 130)
+('inside :', 128)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 128)
+('inside :', 13)
+('inside :', 127)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 127)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+((v__DOT__stato_0_0) & 2) != 0
+('inside :', 130)
+('inside :', 129)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
+((v__DOT__stato_0_0) & 1) != 0
+('inside :', 129)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((v__DOT__stato_0_0) & 1) == 0)
+(((v__DOT__stato_0_0) & 2) == 0)
+(rtr_0_0 == 0)
 (((v__DOT__stato_0_0) & 1) == 0)
 (((v__DOT__stato_0_0) & 2) == 0)
 ((v__DOT__stato_0_0) & 4) != 0
-('inside :', 45)
-('inside :', 44)
-('inside :', 42)
-('inside :', 13)
-((v__DOT__r_in_0_0) & 1) != 0
-('inside :', 13)
-(((v__DOT__r_in_0_0) & 1) == 0)
+('inside :', 137)
+('inside :', 136)
+('inside :', 134)
 ((v__DOT__stato_0_0) & 1) != 0
-('inside :', 42)
-('inside :', 10)
-('inside :', 7)
-( (25 > (v__DOT__cont_0_0)) != 0 )
-('inside :', 7)
-(25 <= (v__DOT__cont_0_0))
-Or(((v__DOT__r_in_0_0) == 63),((v__DOT__r_in_0_0) == 0))
-('inside :', 10)
-('inside :', 41)
-(26 >= (v__DOT__r_in_0_0))
-('inside :', 41)
-( (26 < (v__DOT__r_in_0_0)) != 0 )
-Not(Or(((v__DOT__r_in_0_0) == 63),((v__DOT__r_in_0_0) == 0)))
+('inside :', 134)
+('inside :', 13)
+('inside :', 133)
+('inside :', 11)
+((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0
+('inside :', 11)
+(((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) == 0)
+('inside :', 11)
+((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0
+('inside :', 11)
+(((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) == 0)
+key_0_0 != 0
+('inside :', 133)
+(key_0_0 == 0)
+start_0_0 != 0
+('inside :', 13)
+(start_0_0 == 0)
 (((v__DOT__stato_0_0) & 1) == 0)
 ((v__DOT__stato_0_0) & 2) != 0
-('inside :', 44)
-('inside :', 43)
-('inside :', 4)
-stbi_0_0 != 0
-('inside :', 4)
-(stbi_0_0 == 0)
+('inside :', 136)
+('inside :', 135)
+('inside :', 7)
+start_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(start_0_0 == 0)
+('inside :', 7)
+rtr_0_0 != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(rtr_0_0 == 0)
+('inside :', 7)
+((~((rtr_0_0))) & 1) != 0
+('inside :', 7)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
+(((~((rtr_0_0))) & 1) == 0)
 ((v__DOT__stato_0_0) & 1) != 0
-('inside :', 43)
+('inside :', 135)
+('inside :', 3)
+test_0_0 != 0
+('inside :', 3)
+(test_0_0 == 0)
 (((v__DOT__stato_0_0) & 1) == 0)
 (((v__DOT__stato_0_0) & 2) == 0)
 (((v__DOT__stato_0_0) & 4) == 0)
 (((v__DOT__stato_0_0) & 8) == 0)
 (reset_0_0 == 0)
-((~((__Vclklast__TOP__clock_0_0))) & (clock_0_0)) != 0
-(((~((__Vclklast__TOP__clock_0_0))) & (clock_0_0)) == 0)
 0
 
-32
-	35
-		31
-		34
-			31
-			33
-				31
+31
+	103
+		30
+		102
+			32
 				30
-					28
-					29
-	45
-		40
-			38
-				27
+				29
+			101
+				28
+					27
+					26
+						25
+						66
+							61
+								51
+									24
+										23
+										22
+											21
+											41
+												20
+													19
+													18
+														17
+															15
+															16
+														36
+															34
+																14
+																13
+																	33
+																		11
+																			9
+																			12
+																			10
+																			12
+																		12
+																	8
+															35
+																7
+																	4
+																	3
+																		2
+																		1
+																	5
+																	3
+																		2
+																		1
+																	6
+																	3
+																		2
+																		1
+																3
+																	2
+																	1
+												18
+													17
+														15
+														16
+													40
+														38
+															14
+															13
+																37
+																	11
+																		9
+																		12
+																		10
+																		12
+																	12
+																8
+														39
+															7
+																4
+																3
+																	2
+																	1
+																5
+																3
+																	2
+																	1
+																6
+																3
+																	2
+																	1
+															3
+																2
+																1
+									22
+										21
+										50
+											20
+												19
+												18
+													17
+														15
+														16
+													45
+														43
+															14
+															13
+																42
+																	11
+																		9
+																		12
+																		10
+																		12
+																	12
+																8
+														44
+															7
+																4
+																3
+																	2
+																	1
+																5
+																3
+																	2
+																	1
+																6
+																3
+																	2
+																	1
+															3
+																2
+																1
+											18
+												17
+													15
+													16
+												49
+													47
+														14
+														13
+															46
+																11
+																	9
+																	12
+																	10
+																	12
+																12
+															8
+													48
+														7
+															4
+															3
+																2
+																1
+															5
+															3
+																2
+																1
+															6
+															3
+																2
+																1
+														3
+															2
+															1
+								60
+									20
+										19
+										18
+											17
+												15
+												16
+											55
+												53
+													14
+													13
+														52
+															11
+																9
+																12
+																10
+																12
+															12
+														8
+												54
+													7
+														4
+														3
+															2
+															1
+														5
+														3
+															2
+															1
+														6
+														3
+															2
+															1
+													3
+														2
+														1
+									18
+										17
+											15
+											16
+										59
+											57
+												14
+												13
+													56
+														11
+															9
+															12
+															10
+															12
+														12
+													8
+											58
+												7
+													4
+													3
+														2
+														1
+													5
+													3
+														2
+														1
+													6
+													3
+														2
+														1
+												3
+													2
+													1
+							65
+								63
+									14
+									13
+										62
+											11
+												9
+												12
+												10
+												12
+											12
+										8
+								64
+									7
+										4
+										3
+											2
+											1
+										5
+										3
+											2
+											1
+										6
+										3
+											2
+											1
+									3
+										2
+										1
+				26
+					25
+					100
+						95
+							85
+								24
+									23
+									22
+										21
+										75
+											20
+												19
+												18
+													17
+														15
+														16
+													70
+														68
+															14
+															13
+																67
+																	11
+																		9
+																		12
+																		10
+																		12
+																	12
+																8
+														69
+															7
+																4
+																3
+																	2
+																	1
+																5
+																3
+																	2
+																	1
+																6
+																3
+																	2
+																	1
+															3
+																2
+																1
+											18
+												17
+													15
+													16
+												74
+													72
+														14
+														13
+															71
+																11
+																	9
+																	12
+																	10
+																	12
+																12
+															8
+													73
+														7
+															4
+															3
+																2
+																1
+															5
+															3
+																2
+																1
+															6
+															3
+																2
+																1
+														3
+															2
+															1
+								22
+									21
+									84
+										20
+											19
+											18
+												17
+													15
+													16
+												79
+													77
+														14
+														13
+															76
+																11
+																	9
+																	12
+																	10
+																	12
+																12
+															8
+													78
+														7
+															4
+															3
+																2
+																1
+															5
+															3
+																2
+																1
+															6
+															3
+																2
+																1
+														3
+															2
+															1
+										18
+											17
+												15
+												16
+											83
+												81
+													14
+													13
+														80
+															11
+																9
+																12
+																10
+																12
+															12
+														8
+												82
+													7
+														4
+														3
+															2
+															1
+														5
+														3
+															2
+															1
+														6
+														3
+															2
+															1
+													3
+														2
+														1
+							94
+								20
+									19
+									18
+										17
+											15
+											16
+										89
+											87
+												14
+												13
+													86
+														11
+															9
+															12
+															10
+															12
+														12
+													8
+											88
+												7
+													4
+													3
+														2
+														1
+													5
+													3
+														2
+														1
+													6
+													3
+														2
+														1
+												3
+													2
+													1
+								18
+									17
+										15
+										16
+									93
+										91
+											14
+											13
+												90
+													11
+														9
+														12
+														10
+														12
+													12
+												8
+										92
+											7
+												4
+												3
+													2
+													1
+												5
+												3
+													2
+													1
+												6
+												3
+													2
+													1
+											3
+												2
+												1
+						99
+							97
+								14
+								13
+									96
+										11
+											9
+											12
+											10
+											12
+										12
+									8
+							98
+								7
+									4
+									3
+										2
+										1
+									5
+									3
+										2
+										1
+									6
+									3
+										2
+										1
+								3
+									2
+									1
+	137
+		132
+			122
+				24
 					23
-					37
-						24
-						36
-							25
-							26
+					22
+						21
+						112
+							20
+								19
+								18
+									17
+										15
+										16
+									107
+										105
+											14
+											13
+												104
+													11
+														9
+														12
+														10
+														12
+													12
+												8
+										106
+											7
+												4
+												3
+													2
+													1
+												5
+												3
+													2
+													1
+												6
+												3
+													2
+													1
+											3
+												2
+												1
+							18
+								17
+									15
+									16
+								111
+									109
+										14
+										13
+											108
+												11
+													9
+													12
+													10
+													12
+												12
+											8
+									110
+										7
+											4
+											3
+												2
+												1
+											5
+											3
+												2
+												1
+											6
+											3
+												2
+												1
+										3
+											2
+											1
 				22
-					20
 					21
-			39
-				19
-					17
+					121
+						20
+							19
+							18
+								17
+									15
+									16
+								116
+									114
+										14
+										13
+											113
+												11
+													9
+													12
+													10
+													12
+												12
+											8
+									115
+										7
+											4
+											3
+												2
+												1
+											5
+											3
+												2
+												1
+											6
+											3
+												2
+												1
+										3
+											2
+											1
+						18
+							17
+								15
+								16
+							120
+								118
+									14
+									13
+										117
+											11
+												9
+												12
+												10
+												12
+											12
+										8
+								119
+									7
+										4
+										3
+											2
+											1
+										5
+										3
+											2
+											1
+										6
+										3
+											2
+											1
+									3
+										2
+										1
+			131
+				20
+					19
 					18
-				16
-					14
-					15
-		44
-			42
+						17
+							15
+							16
+						126
+							124
+								14
+								13
+									123
+										11
+											9
+											12
+											10
+											12
+										12
+									8
+							125
+								7
+									4
+									3
+										2
+										1
+									5
+									3
+										2
+										1
+									6
+									3
+										2
+										1
+								3
+									2
+									1
+				18
+					17
+						15
+						16
+					130
+						128
+							14
+							13
+								127
+									11
+										9
+										12
+										10
+										12
+									12
+								8
+						129
+							7
+								4
+								3
+									2
+									1
+								5
+								3
+									2
+									1
+								6
+								3
+									2
+									1
+							3
+								2
+								1
+		136
+			134
+				14
 				13
-					11
-					12
-				10
-					7
-						5
-						6
-					41
-						8
-						9
-			43
-				4
-					2
+					133
+						11
+							9
+							12
+							10
+							12
+						12
+					8
+			135
+				7
+					4
 					3
-				1
-
-46
-
-47
+						2
+						1
+					5
+					3
+						2
+						1
+					6
+					3
+						2
+						1
+				3
+					2
+					1
 
 (0, ' ', [0])
-(1, ' ', [32, 45, 44, 43, 1])
-(2, ' ', [32, 45, 44, 43, 4, 2])
-(3, ' ', [32, 45, 44, 43, 4, 3])
-(5, ' ', [32, 45, 44, 42, 10, 7, 5])
-(6, ' ', [32, 45, 44, 42, 10, 7, 6])
-(8, ' ', [32, 45, 44, 42, 10, 41, 8])
-(9, ' ', [32, 45, 44, 42, 10, 41, 9])
-(11, ' ', [32, 45, 44, 42, 13, 11])
-(12, ' ', [32, 45, 44, 42, 13, 12])
-(14, ' ', [32, 45, 40, 39, 16, 14])
-(15, ' ', [32, 45, 40, 39, 16, 15])
-(17, ' ', [32, 45, 40, 39, 19, 17])
-(18, ' ', [32, 45, 40, 39, 19, 18])
-(20, ' ', [32, 45, 40, 38, 22, 20])
-(21, ' ', [32, 45, 40, 38, 22, 21])
-(23, ' ', [32, 45, 40, 38, 27, 23])
-(24, ' ', [32, 45, 40, 38, 27, 37, 24])
-(25, ' ', [32, 45, 40, 38, 27, 37, 36, 25])
-(26, ' ', [32, 45, 40, 38, 27, 37, 36, 26])
-(28, ' ', [32, 35, 34, 33, 30, 28])
-(29, ' ', [32, 35, 34, 33, 30, 29])
-(31, ' ', [32, 35, 34, 33, 31])
+(1, ' ', [31, 137, 136, 135, 3, 1])
+(2, ' ', [31, 137, 136, 135, 3, 2])
+(4, ' ', [31, 137, 136, 135, 7, 4])
+(5, ' ', [31, 137, 136, 135, 7, 5])
+(6, ' ', [31, 137, 136, 135, 7, 6])
+(8, ' ', [31, 137, 136, 134, 13, 8])
+(9, ' ', [31, 137, 136, 134, 13, 133, 11, 9])
+(10, ' ', [31, 137, 136, 134, 13, 133, 11, 10])
+(12, ' ', [31, 137, 136, 134, 13, 133, 12])
+(14, ' ', [31, 137, 136, 134, 14])
+(15, ' ', [31, 137, 132, 131, 18, 17, 15])
+(16, ' ', [31, 137, 132, 131, 18, 17, 16])
+(19, ' ', [31, 137, 132, 131, 20, 19])
+(21, ' ', [31, 137, 132, 122, 22, 21])
+(23, ' ', [31, 137, 132, 122, 24, 23])
+(25, ' ', [31, 103, 102, 101, 26, 25])
+(27, ' ', [31, 103, 102, 101, 28, 27])
+(29, ' ', [31, 103, 102, 32, 29])
+(30, ' ', [31, 103, 102, 32, 30])
 
 Input Vars
-('clock', ' : ', 1)
+('r_button', ' : ', 1)
+('g_button', ' : ', 1)
+('key', ' : ', 1)
+('start', ' : ', 1)
 ('reset', ' : ', 1)
-('x_in', ' : ', 6)
-('stbi', ' : ', 1)
+('test', ' : ', 1)
+('rts', ' : ', 1)
+('rtr', ' : ', 1)
+('clock', ' : ', 1)
+('v_in', ' : ', 4)
 
-0   reset_0_0 != 0 ,  (v__DOT__stato_0_1 == 0) ,  (v__DOT__r_in_0_1 == 0) ,  (v__DOT__cont_0_1 == 0) ,  (v__DOT__cont1_0_1 == 0) ,  (x_out_0_1 == 0) ,   
-1   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  (((v__DOT__stato_0_0) & 2) == 0) ,  (((v__DOT__stato_0_0) & 1) == 0) ,  (v__DOT__cont_0_1 == 0) ,  (v__DOT__r_in_0_1 == x_in_0_0) ,  (x_out_0_1 == 0) ,  (v__DOT__stato_0_1 == 1) ,   
-2   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  (((v__DOT__stato_0_0) & 2) == 0) ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (v__DOT__r_in_0_1 == x_in_0_0) ,  stbi_0_0 != 0 ,  (v__DOT__stato_0_1 == 1) ,   
-3   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  (((v__DOT__stato_0_0) & 2) == 0) ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (v__DOT__r_in_0_1 == x_in_0_0) ,  (stbi_0_0 == 0) ,  (v__DOT__stato_0_1 == 2) ,   
-5   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  ((v__DOT__stato_0_0) & 2) != 0 ,  (((v__DOT__stato_0_0) & 1) == 0) ,  Or(((v__DOT__r_in_0_0) == 63),((v__DOT__r_in_0_0) == 0)) ,  (v__DOT__cont1_0_1 == v__DOT__r_in_0_0) ,  (v__DOT__stato_0_1 == 8) ,  (25 > (v__DOT__cont_0_0)) ,  (v__DOT__cont_0_1 == (((v__DOT__cont_0_0) + (1)) & 63)) ,   
-6   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  ((v__DOT__stato_0_0) & 2) != 0 ,  (((v__DOT__stato_0_0) & 1) == 0) ,  Or(((v__DOT__r_in_0_0) == 63),((v__DOT__r_in_0_0) == 0)) ,  (v__DOT__cont1_0_1 == v__DOT__r_in_0_0) ,  (v__DOT__stato_0_1 == 8) ,  (25 <= (v__DOT__cont_0_0)) ,  (v__DOT__cont_0_1 == 0) ,   
-8   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  ((v__DOT__stato_0_0) & 2) != 0 ,  (((v__DOT__stato_0_0) & 1) == 0) ,  Not(Or(((v__DOT__r_in_0_0) == 63),((v__DOT__r_in_0_0) == 0))) ,  (26 >= (v__DOT__r_in_0_0)) ,  (v__DOT__stato_0_1 == 3) ,   
-9   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  ((v__DOT__stato_0_0) & 2) != 0 ,  (((v__DOT__stato_0_0) & 1) == 0) ,  Not(Or(((v__DOT__r_in_0_0) == 63),((v__DOT__r_in_0_0) == 0))) ,  (26 < (v__DOT__r_in_0_0)) ,  (v__DOT__stato_0_1 == 1) ,   
-11   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  ((v__DOT__stato_0_0) & 2) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (v__DOT__stato_0_1 == 4) ,  ((v__DOT__r_in_0_0) & 1) != 0 ,  (v__DOT__cont1_0_1 == (((v__DOT__cont_0_0) << 1) & 511)) ,   
-12   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  ((v__DOT__stato_0_0) & 2) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (v__DOT__stato_0_1 == 4) ,  (((v__DOT__r_in_0_0) & 1) == 0) ,  (v__DOT__cont1_0_1 == v__DOT__cont_0_0) ,   
-14   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  (((v__DOT__stato_0_0) & 2) == 0) ,  (((v__DOT__stato_0_0) & 1) == 0) ,  ((v__DOT__r_in_0_0) & 2) != 0 ,  (v__DOT__cont1_0_1 == (((v__DOT__cont1_0_0) + (v__DOT__r_in_0_0)) & 511)) ,  (v__DOT__stato_0_1 == 5) ,   
-15   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  (((v__DOT__stato_0_0) & 2) == 0) ,  (((v__DOT__stato_0_0) & 1) == 0) ,  (((v__DOT__r_in_0_0) & 2) == 0) ,  (v__DOT__cont1_0_1 == (((v__DOT__r_in_0_0) - (v__DOT__cont1_0_0)) & 511)) ,  (v__DOT__stato_0_1 == 6) ,   
-17   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  (((v__DOT__stato_0_0) & 2) == 0) ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (26 < (v__DOT__cont1_0_0)) ,  (v__DOT__cont1_0_1 == (((v__DOT__cont1_0_0) - (26)) & 511)) ,  (v__DOT__stato_0_1 == 5) ,   
-18   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  (((v__DOT__stato_0_0) & 2) == 0) ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (26 >= (v__DOT__cont1_0_0)) ,  (v__DOT__stato_0_1 == 7) ,   
-20   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  ((v__DOT__stato_0_0) & 2) != 0 ,  (((v__DOT__stato_0_0) & 1) == 0) ,  (63 < (v__DOT__cont1_0_0)) ,  (v__DOT__cont1_0_1 == (((v__DOT__cont1_0_0) + (26)) & 511)) ,  (v__DOT__stato_0_1 == 6) ,   
-21   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  ((v__DOT__stato_0_0) & 2) != 0 ,  (((v__DOT__stato_0_0) & 1) == 0) ,  (63 >= (v__DOT__cont1_0_0)) ,  (v__DOT__stato_0_1 == 7) ,   
-23   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  ((v__DOT__stato_0_0) & 2) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (v__DOT__stato_0_1 == 8) ,  ((((v__DOT__r_in_0_0) >> 2) & 3) == 0) ,  (v__DOT__cont1_0_1 == (((v__DOT__cont1_0_0) - (21)) & 511)) ,   
-24   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  ((v__DOT__stato_0_0) & 2) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (v__DOT__stato_0_1 == 8) ,  ((((v__DOT__r_in_0_0) >> 2) & 3) != 0) ,  ((((v__DOT__r_in_0_0) >> 2) & 3) == 1) ,  (v__DOT__cont1_0_1 == (((v__DOT__cont1_0_0) - (42)) & 511)) ,   
-25   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  ((v__DOT__stato_0_0) & 2) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (v__DOT__stato_0_1 == 8) ,  ((((v__DOT__r_in_0_0) >> 2) & 3) != 0) ,  ((((v__DOT__r_in_0_0) >> 2) & 3) != 1) ,  ((((v__DOT__r_in_0_0) >> 2) & 3) == 2) ,  (v__DOT__cont1_0_1 == (((v__DOT__cont1_0_0) + (7)) & 511)) ,   
-26   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  ((v__DOT__stato_0_0) & 2) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (v__DOT__stato_0_1 == 8) ,  ((((v__DOT__r_in_0_0) >> 2) & 3) != 0) ,  ((((v__DOT__r_in_0_0) >> 2) & 3) != 1) ,  ((((v__DOT__r_in_0_0) >> 2) & 3) != 2) ,  (v__DOT__cont1_0_1 == (((v__DOT__cont1_0_0) + (28)) & 511)) ,   
-28   (reset_0_0 == 0) ,  ((v__DOT__stato_0_0) & 8) != 0 ,  (((v__DOT__stato_0_0) & 4) == 0) ,  (((v__DOT__stato_0_0) & 2) == 0) ,  (((v__DOT__stato_0_0) & 1) == 0) ,  (v__DOT__stato_0_1 == 1) ,  ((v__DOT__cont1_0_0) & 256) != 0 ,  (x_out_0_1 == ((~((v__DOT__cont1_0_0))) & 63)) ,   
-29   (reset_0_0 == 0) ,  ((v__DOT__stato_0_0) & 8) != 0 ,  (((v__DOT__stato_0_0) & 4) == 0) ,  (((v__DOT__stato_0_0) & 2) == 0) ,  (((v__DOT__stato_0_0) & 1) == 0) ,  (v__DOT__stato_0_1 == 1) ,  (((v__DOT__cont1_0_0) & 256) == 0) ,  (x_out_0_1 == ((v__DOT__cont1_0_0) & 63)) ,   
-31   (reset_0_0 == 0) ,  ((v__DOT__stato_0_0) & 8) != 0 ,  (((v__DOT__stato_0_0) & 4) == 0) ,  (((v__DOT__stato_0_0) & 2) == 0) ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (v__DOT__stato_0_1 == 0) ,   
+0   reset_0_0 != 0 ,  (__Vdly__v__DOT__stato_1_0 == 0) ,  (__Vdly__v__DOT__voto0_1_0 == 0) ,  (__Vdly__v__DOT__voto1_1_0 == 0) ,  (__Vdly__v__DOT__voto2_1_0 == 0) ,  (__Vdly__v__DOT__voto3_1_0 == 0) ,  (__Vdly__v__DOT__sign_1_0 == 0) ,  (__Vdly__v__DOT__last_g_1_0 == 0) ,  (__Vdly__v__DOT__last_r_1_0 == 0) ,  (cts_1_0 == 0) ,  (ctr_1_0 == 0) ,  (v_out_1_0 == 0) ,   
+1   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  (((v__DOT__stato_0_0) & 2) == 0) ,  (((v__DOT__stato_0_0) & 1) == 0) ,  (__Vdly__v__DOT__voto0_1_0 == 0) ,  (__Vdly__v__DOT__voto1_1_0 == 0) ,  (__Vdly__v__DOT__voto2_1_0 == 0) ,  (__Vdly__v__DOT__voto3_1_0 == 0) ,  (cts_1_0 == 0) ,  (ctr_1_0 == 0) ,  (test_0_0 == 0) ,  (__Vdly__v__DOT__sign_1_0 == 0) ,  (__Vdly__v__DOT__stato_1_0 == 9) ,   
+2   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  (((v__DOT__stato_0_0) & 2) == 0) ,  (((v__DOT__stato_0_0) & 1) == 0) ,  (__Vdly__v__DOT__voto0_1_0 == 0) ,  (__Vdly__v__DOT__voto1_1_0 == 0) ,  (__Vdly__v__DOT__voto2_1_0 == 0) ,  (__Vdly__v__DOT__voto3_1_0 == 0) ,  (cts_1_0 == 0) ,  (ctr_1_0 == 0) ,  test_0_0 != 0 ,  (__Vdly__v__DOT__voto0_1_0 == 0) ,  (__Vdly__v__DOT__voto1_1_0 == 0) ,  (__Vdly__v__DOT__voto2_1_0 == 0) ,  (__Vdly__v__DOT__voto3_1_0 == 0) ,  (__Vdly__v__DOT__stato_1_0 == 1) ,   
+4   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  (((v__DOT__stato_0_0) & 2) == 0) ,  ((v__DOT__stato_0_0) & 1) != 0 ,  start_0_0 != 0 ,  (__Vdly__v__DOT__voto0_1_0 == 0) ,  (__Vdly__v__DOT__voto1_1_0 == 0) ,  (__Vdly__v__DOT__voto2_1_0 == 0) ,  (__Vdly__v__DOT__voto3_1_0 == 0) ,  (__Vdly__v__DOT__stato_1_0 == 2) ,   
+5   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  (((v__DOT__stato_0_0) & 2) == 0) ,  ((v__DOT__stato_0_0) & 1) != 0 ,  rtr_0_0 != 0 ,  (cts_1_0 == 1) ,   
+6   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  (((v__DOT__stato_0_0) & 2) == 0) ,  ((v__DOT__stato_0_0) & 1) != 0 ,  ((~((rtr_0_0))) & 1) != 0 ,  (cts_1_0 == 0) ,   
+8   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  ((v__DOT__stato_0_0) & 2) != 0 ,  (((v__DOT__stato_0_0) & 1) == 0) ,  (start_0_0 == 0) ,  (__Vdly__v__DOT__stato_1_0 == 3) ,   
+9   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  ((v__DOT__stato_0_0) & 2) != 0 ,  (((v__DOT__stato_0_0) & 1) == 0) ,  start_0_0 != 0 ,  key_0_0 != 0 ,  (__Vdly__v__DOT__voto0_1_0 == key_0_0) ,  (__Vdly__v__DOT__last_g_1_0 == g_button_0_0) ,  (__Vdly__v__DOT__last_r_1_0 == r_button_0_0) ,  ((g_button_0_0) & ((v__DOT__last_g_0_0) ^ (g_button_0_0))) != 0 ,  (__Vdly__v__DOT__voto1_1_0 == ((~((v__DOT__voto1_0_0))) & 1)) ,   
+10   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  ((v__DOT__stato_0_0) & 2) != 0 ,  (((v__DOT__stato_0_0) & 1) == 0) ,  start_0_0 != 0 ,  key_0_0 != 0 ,  (__Vdly__v__DOT__voto0_1_0 == key_0_0) ,  (__Vdly__v__DOT__last_g_1_0 == g_button_0_0) ,  (__Vdly__v__DOT__last_r_1_0 == r_button_0_0) ,  ((r_button_0_0) & ((v__DOT__last_r_0_0) ^ (r_button_0_0))) != 0 ,  (__Vdly__v__DOT__voto2_1_0 == ((~((v__DOT__voto2_0_0))) & 1)) ,   
+12   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  ((v__DOT__stato_0_0) & 2) != 0 ,  (((v__DOT__stato_0_0) & 1) == 0) ,  start_0_0 != 0 ,  (key_0_0 == 0) ,  (__Vdly__v__DOT__voto0_1_0 == 0) ,  (__Vdly__v__DOT__voto1_1_0 == 0) ,  (__Vdly__v__DOT__voto2_1_0 == 0) ,  (__Vdly__v__DOT__voto3_1_0 == 0) ,   
+14   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  (((v__DOT__stato_0_0) & 4) == 0) ,  ((v__DOT__stato_0_0) & 2) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (__Vdly__v__DOT__voto3_1_0 == (((v__DOT__voto2_0_0) ^ (v__DOT__voto1_0_0)) ^ (v__DOT__voto0_0_0))) ,  (__Vdly__v__DOT__stato_1_0 == 4) ,  (__Vdly__v__DOT__voto0_1_0 == 0) ,   
+15   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  (((v__DOT__stato_0_0) & 2) == 0) ,  (((v__DOT__stato_0_0) & 1) == 0) ,  rtr_0_0 != 0 ,  (v_out_0_1 == ((v__DOT__voto0_0_0) || ((v_out_0_0) & 14))) ,  (v_out_0_1 == (((v__DOT__voto1_0_0) << 1) || ((v_out_0_0) & 13))) ,  (v_out_0_1 == (((v__DOT__voto2_0_0) << 2) || ((v_out_0_0) & 11))) ,  (v_out_0_1 == (((v__DOT__voto3_0_0) << 3) || ((v_out_0_0) & 7))) ,  (cts_1_0 == 1) ,  ((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) != 0 ,  (__Vdly__v__DOT__stato_1_0 == 8) ,   
+16   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  (((v__DOT__stato_0_0) & 2) == 0) ,  (((v__DOT__stato_0_0) & 1) == 0) ,  rtr_0_0 != 0 ,  (v_out_0_1 == ((v__DOT__voto0_0_0) || ((v_out_0_0) & 14))) ,  (v_out_0_1 == (((v__DOT__voto1_0_0) << 1) || ((v_out_0_0) & 13))) ,  (v_out_0_1 == (((v__DOT__voto2_0_0) << 2) || ((v_out_0_0) & 11))) ,  (v_out_0_1 == (((v__DOT__voto3_0_0) << 3) || ((v_out_0_0) & 7))) ,  (cts_1_0 == 1) ,  (((~((v__DOT__voto3_0_0))) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (~((v__DOT__voto0_0_0)))))) == 0) ,  (__Vdly__v__DOT__stato_1_0 == 5) ,   
+19   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  (((v__DOT__stato_0_0) & 2) == 0) ,  ((v__DOT__stato_0_0) & 1) != 0 ,  ((~((rts_0_0))) & 1) != 0 ,  (ctr_1_0 == 1) ,  (__Vdly__v__DOT__stato_1_0 == 6) ,   
+21   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  ((v__DOT__stato_0_0) & 2) != 0 ,  (((v__DOT__stato_0_0) & 1) == 0) ,  rts_0_0 != 0 ,  (__Vdly__v__DOT__voto0_1_0 == ((v_in_0_0) & 1)) ,  (__Vdly__v__DOT__voto1_1_0 == (((v_in_0_0) >> 1) & 1)) ,  (__Vdly__v__DOT__voto2_1_0 == (((v_in_0_0) >> 2) & 1)) ,  (__Vdly__v__DOT__voto3_1_0 == (((v_in_0_0) >> 3) & 1)) ,  (ctr_1_0 == 0) ,  (__Vdly__v__DOT__stato_1_0 == 7) ,   
+23   (reset_0_0 == 0) ,  (((v__DOT__stato_0_0) & 8) == 0) ,  ((v__DOT__stato_0_0) & 4) != 0 ,  ((v__DOT__stato_0_0) & 2) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0 ,  ((~((rtr_0_0))) & 1) != 0 ,  (cts_1_0 == 0) ,  (__Vdly__v__DOT__stato_1_0 == 4) ,   
+25   (reset_0_0 == 0) ,  ((v__DOT__stato_0_0) & 8) != 0 ,  (((v__DOT__stato_0_0) & 4) == 0) ,  (((v__DOT__stato_0_0) & 2) == 0) ,  (((v__DOT__stato_0_0) & 1) == 0) ,  ((~((rtr_0_0))) & 1) != 0 ,  (cts_1_0 == 0) ,  (__Vdly__v__DOT__stato_1_0 == 1) ,   
+27   (reset_0_0 == 0) ,  ((v__DOT__stato_0_0) & 8) != 0 ,  (((v__DOT__stato_0_0) & 4) == 0) ,  (((v__DOT__stato_0_0) & 2) == 0) ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (__Vdly__v__DOT__voto0_1_0 == ((v_in_0_0) & 1)) ,  (__Vdly__v__DOT__voto1_1_0 == (((v_in_0_0) >> 1) & 1)) ,  (__Vdly__v__DOT__voto2_1_0 == (((v_in_0_0) >> 2) & 1)) ,  (__Vdly__v__DOT__voto3_1_0 == (((v_in_0_0) >> 3) & 1)) ,  (__Vdly__v__DOT__sign_1_0 == 8) ,  ((v__DOT__voto3_0_0) & ((v__DOT__voto2_0_0) & ((v__DOT__voto1_0_0) & (v__DOT__voto0_0_0)))) != 0 ,  (__Vdly__v__DOT__stato_1_0 == 10) ,   
+29   (reset_0_0 == 0) ,  ((v__DOT__stato_0_0) & 8) != 0 ,  (((v__DOT__stato_0_0) & 4) == 0) ,  ((v__DOT__stato_0_0) & 2) != 0 ,  (((v__DOT__stato_0_0) & 1) == 0) ,  (__Vdly__v__DOT__voto0_1_0 == ((~((v__DOT__sign_0_0))) & 1)) ,  (__Vdly__v__DOT__voto0_1_0 == (((v__DOT__sign_0_0) >> 1) & 1)) ,  (__Vdly__v__DOT__voto0_1_0 == (((v__DOT__sign_0_0) >> 2) & 1)) ,  (__Vdly__v__DOT__voto0_1_0 == ((~(((v__DOT__sign_0_0) >> 3))) & 1)) ,  (__Vdly__v__DOT__stato_1_0 == 4) ,   
+30   (reset_0_0 == 0) ,  ((v__DOT__stato_0_0) & 8) != 0 ,  (((v__DOT__stato_0_0) & 4) == 0) ,  ((v__DOT__stato_0_0) & 2) != 0 ,  ((v__DOT__stato_0_0) & 1) != 0 ,  (__Vdly__v__DOT__stato_1_0 == 0) ,   
 
 
 
@@ -217,424 +2317,5 @@ Starting concolic simulation
 
 
 
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('This node ', 42, ' is not a leaf node')
-UNSAT
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Check if should cover : ', 43, ' ', True)
-('Check if can mutate : ', 43, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('This node ', 43, ' is not a leaf node')
-SAT
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage Trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Total number of covered branches : ', 18)
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('This node ', 42, ' is not a leaf node')
-UNSAT
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Check if should cover : ', 43, ' ', True)
-('Check if can mutate : ', 43, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('This node ', 43, ' is not a leaf node')
-SAT
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage Trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Total number of covered branches : ', 18)
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('This node ', 42, ' is not a leaf node')
-UNSAT
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Check if should cover : ', 43, ' ', True)
-('Check if can mutate : ', 43, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('This node ', 43, ' is not a leaf node')
-SAT
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage Trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Total number of covered branches : ', 18)
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('This node ', 42, ' is not a leaf node')
-UNSAT
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Check if should cover : ', 43, ' ', True)
-('Check if can mutate : ', 43, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('This node ', 43, ' is not a leaf node')
-SAT
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage Trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Total number of covered branches : ', 18)
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('This node ', 42, ' is not a leaf node')
-UNSAT
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Check if should cover : ', 43, ' ', True)
-('Check if can mutate : ', 43, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('This node ', 43, ' is not a leaf node')
-SAT
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage Trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Total number of covered branches : ', 18)
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('This node ', 42, ' is not a leaf node')
-UNSAT
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Check if should cover : ', 43, ' ', True)
-('Check if can mutate : ', 43, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('This node ', 43, ' is not a leaf node')
-SAT
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage Trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Total number of covered branches : ', 18)
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('This node ', 42, ' is not a leaf node')
-UNSAT
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Check if should cover : ', 43, ' ', True)
-('Check if can mutate : ', 43, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('This node ', 43, ' is not a leaf node')
-SAT
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage Trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Total number of covered branches : ', 18)
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('This node ', 42, ' is not a leaf node')
-UNSAT
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Check if should cover : ', 43, ' ', True)
-('Check if can mutate : ', 43, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('This node ', 43, ' is not a leaf node')
-SAT
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage Trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Total number of covered branches : ', 18)
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('This node ', 42, ' is not a leaf node')
-UNSAT
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Check if should cover : ', 43, ' ', True)
-('Check if can mutate : ', 43, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('This node ', 43, ' is not a leaf node')
-SAT
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage Trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Total number of covered branches : ', 18)
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('This node ', 42, ' is not a leaf node')
-UNSAT
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Check if should cover : ', 43, ' ', True)
-('Check if can mutate : ', 43, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('This node ', 43, ' is not a leaf node')
-SAT
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage Trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Total number of covered branches : ', 18)
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('This node ', 42, ' is not a leaf node')
-UNSAT
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Check if should cover : ', 43, ' ', True)
-('Check if can mutate : ', 43, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('This node ', 43, ' is not a leaf node')
-SAT
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage Trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Total number of covered branches : ', 18)
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('This node ', 42, ' is not a leaf node')
-UNSAT
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Check if should cover : ', 43, ' ', True)
-('Check if can mutate : ', 43, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('This node ', 43, ' is not a leaf node')
-SAT
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage Trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Total number of covered branches : ', 18)
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('This node ', 42, ' is not a leaf node')
-UNSAT
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Check if should cover : ', 43, ' ', True)
-('Check if can mutate : ', 43, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('This node ', 43, ' is not a leaf node')
-SAT
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage Trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Total number of covered branches : ', 18)
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('This node ', 42, ' is not a leaf node')
-UNSAT
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 42]])
-('Check if should cover : ', 43, ' ', True)
-('Check if can mutate : ', 43, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('This node ', 43, ' is not a leaf node')
-SAT
-('Coverage ID Sequence : ', [[0], [1], [3], [9], [3], [9], [3], [9], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [9], [2], [2], [3], [8], [11], [15], [21], [25], [29], [2], [3]])
-('Coverage Trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Total number of covered branches : ', 18)
-
-
-
-Getting new constrain
-('Current Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3]])
-('Check if should cover : ', 2, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4]])
-('Check if should cover : ', 1, ' ', False)
-('Inside take next constrain Coverage trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 8], [32, 45, 44, 42, 13, 11], [32, 45, 40, 39, 16, 15], [32, 45, 40, 38, 22, 21], [32, 45, 40, 38, 27, 37, 36, 25], [32, 35, 34, 33, 30, 29], [32, 45, 44, 43, 4, 2], [32, 45, 44, 43]])
-('Check if should cover : ', 42, ' ', True)
-('Check if can mutate : ', 42, ' ', True)
-('New Cov point trace : ', [[0], [32, 45, 44, 43, 1], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 44, 42, 10, 41, 9], [32, 45, 44, 43, 4, 3], [32, 45, 4
+('Coverage ID Sequence : ', [[0], [2], [5], [5], [5], [4, 6], [8], [14], [16], [], [], [], [], [], [], [], [], [], [], [], [19], [21], [], [23], [], [], [], [16], [19], []])
+('Coverage trace : ', [[0], [31, 137, 136, 135, 3, 2], [31, 137, 136, 135, 7, 5], [31, 137, 136, 135, 7, 5], [31, 137, 136, 135, 7, 5], [31, 137, 136, 135, 7, 4, 31, 137, 136, 135, 7, 6], [31, 137, 136, 134, 13, 8], [31, 137, 136, 134, 14], [31, 137, 132, 131, 18, 17, 16], [], [], [], [], [], [], [], [], [], [], [], [31, 137, 132, 131, 20, 19], [31, 137, 132, 122, 22, 21], [], [31, 137, 132, 122, 24, 23], [], [], [], [31, 137, 132, 131, 18, 17, 16], [31, 137, 132, 131, 20, 19], []])

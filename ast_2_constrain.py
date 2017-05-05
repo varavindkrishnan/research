@@ -115,11 +115,11 @@ def add_variables_to_solver(var_assign_count_cycle, variables, variables_width, 
 
 
     if s.check() == unsat:
-        print("UNSAT")
+        # print("UNSAT")
         return "unsat"
 
     else:
-        print("SAT")
+        # print("SAT")
         new_values = []
         # print(s.model())
         solution = s.model()
@@ -153,7 +153,7 @@ def analyze_constraints(coverage_sequence, nodeid_node_mapping, variables, input
     # mutated coverage sequence, includes all branches, not just leaves
     # get the trace
     # compare var assignment in new predicate to the assignment in previous cycle
-    return True
+    # return True
     if len(coverage_sequence) < 2:
         return True
 
@@ -203,10 +203,6 @@ def analyze_constraints(coverage_sequence, nodeid_node_mapping, variables, input
             return True
 
     return False
-
-
-def invert_constraints(constraints_stack):
-    return
 
 
 def parse_trace(num_points):
